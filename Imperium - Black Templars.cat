@@ -199,7 +199,7 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
             <modifier type="append" value="5+" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Oath of Moment" hidden="false" type="rule" id="e9b8-af5a-bd54-c141" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" hidden="false" type="rule" id="e9b8-af5a-bd54-c141" targetId="3b76-4053-ece9-6e7d"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="110"/>
@@ -323,7 +323,7 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
       </selectionEntries>
       <infoLinks>
         <infoLink name="Invulnerable Save" hidden="false" type="profile" id="79d4-857a-4c5-6e95" targetId="db19-dee7-9530-ef0e"/>
-        <infoLink name="Oath of Moment" hidden="false" type="rule" id="9b7-7f23-d635-d7f2" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" hidden="false" type="rule" id="9b7-7f23-d635-d7f2" targetId="3b76-4053-ece9-6e7d"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="6182-f1ea-fdf-88e4" name="Warlord" hidden="false" collective="false" import="true" targetId="caa-f869-3cbd-b48e" type="selectionEntry">
@@ -733,7 +733,7 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
         <categoryLink targetId="fd20-61a5-ca24-e3ee" id="2ae8-d7f0-112a-9a86" primary="false" name="Primaris Crusader Squad"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Oath of Moment" hidden="false" type="rule" id="4384-59f0-9cec-b2b1" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" hidden="false" type="rule" id="4384-59f0-9cec-b2b1" targetId="3b76-4053-ece9-6e7d"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="6" field="selections" scope="roster" shared="true" id="98a9-82fe-9519-62f2"/>
@@ -1134,7 +1134,7 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="d1d5-2c31-6ccd-df6e" includeChildSelections="true"/>
       </constraints>
       <infoLinks>
-        <infoLink name="Oath of Moment" hidden="false" type="rule" id="1371-cfd0-4de9-fa94" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" hidden="false" type="rule" id="1371-cfd0-4de9-fa94" targetId="3b76-4053-ece9-6e7d"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="3542-e033-0a9d-b731" type="selectionEntryGroup" targetId="9a99-f13c-a667-e698" sortIndex="1"/>
@@ -1304,7 +1304,7 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
       </categoryLinks>
       <infoLinks>
         <infoLink name="Invulnerable Save" hidden="false" type="profile" id="fb6b-d42d-78cb-533f" targetId="db19-dee7-9530-ef0e"/>
-        <infoLink name="Oath of Moment" hidden="false" type="rule" id="adcf-a7f-a2f5-9867" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" hidden="false" type="rule" id="adcf-a7f-a2f5-9867" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Lone Operative" id="c525-f742-2b46-c797" hidden="false" targetId="a8a0-8fe7-898-e0f3" type="rule"/>
       </infoLinks>
       <entryLinks>
@@ -1358,7 +1358,7 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
             <modifier type="append" value="D3" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Oath of Moment" hidden="false" type="rule" id="f500-8414-5756-1f8c" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" hidden="false" type="rule" id="f500-8414-5756-1f8c" targetId="3b76-4053-ece9-6e7d"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="4144-d2c1-e753-353"/>
@@ -1569,7 +1569,7 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
             <modifier type="append" value="D3" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Oath of Moment" hidden="false" type="rule" id="4c11-22a8-7285-e82d" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" hidden="false" type="rule" id="4c11-22a8-7285-e82d" targetId="3b76-4053-ece9-6e7d"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="6df-937-16bc-8c1a" id="ac84-29e5-8b78-b254" primary="false" name="Smoke"/>
@@ -1818,7 +1818,7 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
             <modifier type="append" value="D3" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Oath of Moment" hidden="false" type="rule" id="5364-52d6-fe33-346d" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" hidden="false" type="rule" id="5364-52d6-fe33-346d" targetId="3b76-4053-ece9-6e7d"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="65e4-b4e7-3940-bcfe"/>
@@ -2046,7 +2046,7 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
             <modifier type="append" value="6" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Oath of Moment" hidden="false" type="rule" id="a697-105c-a0c4-4bd1" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" hidden="false" type="rule" id="a697-105c-a0c4-4bd1" targetId="3b76-4053-ece9-6e7d"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="03ab-db31-5ded-2d98" type="selectionEntryGroup" targetId="9a99-f13c-a667-e698" sortIndex="1"/>
@@ -2344,7 +2344,7 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
             <modifier type="append" value="D6" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Oath of Moment" hidden="false" type="rule" id="a1e2-5351-78de-83a1" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" hidden="false" type="rule" id="a1e2-5351-78de-83a1" targetId="3b76-4053-ece9-6e7d"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="4bbc-fe99-0d96-955d" type="selectionEntryGroup" targetId="9a99-f13c-a667-e698" sortIndex="1"/>
@@ -2560,7 +2560,7 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
             <modifier type="append" value="D6" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Oath of Moment" hidden="false" type="rule" id="b4b5-4c8f-611c-559a" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" hidden="false" type="rule" id="b4b5-4c8f-611c-559a" targetId="3b76-4053-ece9-6e7d"/>
       </infoLinks>
       <profiles>
         <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fb6-c336-8334-c5ae">
@@ -2832,7 +2832,7 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
       </entryLinks>
       <infoLinks>
         <infoLink name="Leader" type="rule" id="7c0b-c5cc-73e7-bfba" targetId="b4dd-3e1f-41cb-218f"/>
-        <infoLink name="Oath of Moment" hidden="false" type="rule" id="2a8e-354b-864-5f3e" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" hidden="false" type="rule" id="2a8e-354b-864-5f3e" targetId="3b76-4053-ece9-6e7d"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="f822-34c5-5c15-b5d8" hidden="false" sortIndex="4">
@@ -3024,7 +3024,7 @@ You can attach this model to one of the above units even if one Captain or Chap
       <infoLinks>
         <infoLink name="Invulnerable Save" hidden="false" type="profile" id="9521-e5e8-2213-8537" targetId="db19-dee7-9530-ef0e"/>
         <infoLink name="Leader" type="rule" id="c95-c57-b044-a469" targetId="b4dd-3e1f-41cb-218f"/>
-        <infoLink name="Oath of Moment" hidden="false" type="rule" id="70ca-5249-c602-cbaf" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" hidden="false" type="rule" id="70ca-5249-c602-cbaf" targetId="3b76-4053-ece9-6e7d"/>
       </infoLinks>
       <profiles>
         <profile id="ac2d-3f07-3f38-5d51" name="Marshal" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -3619,7 +3619,7 @@ You can attach this model to one of the above units even if one Captain or Chap
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Oath of Moment" id="b223-06db-6d0a-6edb" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" id="b223-06db-6d0a-6edb" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="e1f7-f2b1-d48e-8c9a" type="selectionEntryGroup" targetId="9a99-f13c-a667-e698" sortIndex="1"/>
@@ -3713,7 +3713,7 @@ You can attach this model to one of the above units even if one Captain or Chap
           </modifiers>
         </infoLink>
         <infoLink name="Damaged: 1-5 Wounds Remaining" id="dbff-5e61-9728-6e14" hidden="false" type="profile" targetId="1aac-b083-4318-f750"/>
-        <infoLink name="Oath of Moment" id="4223-9eac-854f-eb99" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" id="4223-9eac-854f-eb99" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
       </infoLinks>
       <profiles>
         <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a875-380f-f5e1-48f0">
@@ -3907,7 +3907,7 @@ You can attach this model to one of the above units even if one Captain or Chap
       <infoLinks>
         <infoLink name="Deep Strike" id="d1b7-0889-634a-adc1" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
         <infoLink name="Invulnerable Save" id="5f87-0787-69ee-243a" hidden="false" type="profile" targetId="db19-dee7-9530-ef0e"/>
-        <infoLink name="Oath of Moment" id="a40f-843e-4aaa-17fb" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" id="a40f-843e-4aaa-17fb" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
       </infoLinks>
       <profiles>
         <profile name="Teleport Homer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="32f8-149e-e6da-9b1c">
@@ -4271,7 +4271,7 @@ You can attach this model to one of the above units even if one Captain or Chap
       <infoLinks>
         <infoLink name="Invulnerable Save" id="d166-e2ef-59e8-4cd1" hidden="false" type="profile" targetId="db19-dee7-9530-ef0e"/>
         <infoLink name="Leader" id="3bf6-b67b-a680-a0f1" hidden="false" type="rule" targetId="b4dd-3e1f-41cb-218f"/>
-        <infoLink name="Oath of Moment" id="a339-a27a-714b-9300" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" id="a339-a27a-714b-9300" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="4d1c-ebb5-63f5-1c1b" collective="false" targetId="caa-f869-3cbd-b48e" type="selectionEntry" sortIndex="2">
@@ -4523,7 +4523,7 @@ You can attach this model to one of the above units even if one Captain, Chapte
       </profiles>
       <infoLinks>
         <infoLink name="Leader" id="b5b7-039f-4ef9-38fc" hidden="false" type="rule" targetId="b4dd-3e1f-41cb-218f"/>
-        <infoLink name="Oath of Moment" id="044c-ad39-bc22-d0b5" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" id="044c-ad39-bc22-d0b5" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="c597-7fe5-e1d3-6490" collective="false" targetId="caa-f869-3cbd-b48e" type="selectionEntry" sortIndex="2">
