@@ -4407,7 +4407,7 @@ You can attach this model to one of the above units even if one Captain or Chap
               <entryLinks>
                 <entryLink import="true" name="Pyre Pistol" hidden="false" id="b5b4-1930-0621-5267" type="selectionEntry" targetId="bb21-4114-6b0c-634d">
                   <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b56a-2767-4436-de32"/>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="b56a-2767-4436-de32"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9a0e-03e6-21fb-e470"/>
                   </constraints>
                 </entryLink>
