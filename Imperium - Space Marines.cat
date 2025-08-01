@@ -2713,6 +2713,7 @@
         <infoLink id="7634-f82d-e64a-cf28" name="Leader" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
         <infoLink name="Invulnerable Save" hidden="false" type="profile" id="7ab-9876-7c1a-f60a" targetId="db19-dee7-9530-ef0e"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="e8ac-7683-4980-c4d9" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" hidden="false" type="rule" id="b4b5-4c8f-611c-559a" targetId="e68b-b42f-6f7c-4671"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="8825-3d6-ae9e-6a0b" name="Character" hidden="false" targetId="9cfd-1c32-585f-7d5c" primary="true"/>
