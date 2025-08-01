@@ -43,24 +43,27 @@
     </constraints>
     <selectionEntry id="5558-f47e-9f45-3fcb" name="Templar Vows Reference" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="4ba4-2d3a-a3b2-2a0c" name="ABHOR THE WITCH, DESTROY THE WITCH" hidden="false" typeId="d07f-b12b-1c73-fa2c" typeName="Templar Vow">
+        <profile id="4ba4-2d3a-a3b2-2a0c" name="Abor the Witch, Destroy the Witch" hidden="false" typeId="d07f-b12b-1c73-fa2c" typeName="Templar Vow">
           <characteristics>
-            <characteristic name="Effect" typeId="fcc3-ca7a-d697-7098">You can re-roll Charge rolls made for this unit.</characteristic>
+            <characteristic name="Effect" typeId="fcc3-ca7a-d697-7098">Each time this unit declares a charge, if one or more targets of that charge have the PSYKER keyword, you can re-roll the Charge roll. Melee weapons equipped by models in this unit have the [PRECISION] ability while targeting PSYKER units.</characteristic>
           </characteristics>
         </profile>
-        <profile id="4ba4-2d3a-a3b2-2a1c" name="ACCEPT ANY CHALLENGE, NO MATTER THE ODDS" hidden="false" typeId="d07f-b12b-1c73-fa2c" typeName="Templar Vow">
+        <profile id="4ba4-2d3a-a3b2-2a1c" name="Accept Any Challenge, No Matter the Odds" hidden="false" typeId="d07f-b12b-1c73-fa2c" typeName="Templar Vow">
           <characteristics>
-            <characteristic name="Effect" typeId="fcc3-ca7a-d697-7098">You can re-roll Charge rolls made for this unit.</characteristic>
+            <characteristic name="Effect" typeId="fcc3-ca7a-d697-7098">Each time this unit makes a melee attack, if the Strength characteristic of that attack is less than or equal to the Toughness characteristic of the target, add 1 to the Wound roll.</characteristic>
           </characteristics>
         </profile>
-        <profile id="4ba4-2d3a-a3b2-2a2c" name="SUFFER NOT THE UNCLEAN TO LIVE" hidden="false" typeId="d07f-b12b-1c73-fa2c" typeName="Templar Vow">
+        <profile id="4ba4-2d3a-a3b2-2a2c" name="Suffer Not the Unclean to Live" hidden="false" typeId="d07f-b12b-1c73-fa2c" typeName="Templar Vow">
           <characteristics>
-            <characteristic name="Effect" typeId="fcc3-ca7a-d697-7098">You can re-roll Charge rolls made for this unit.</characteristic>
+            <characteristic name="Effect" typeId="fcc3-ca7a-d697-7098">This unit is eligible to declare a charge in a turn in which it Fell back, and each time a model in this unit makes a Pile-in or Consolidation move, it does not ened to end thatmove closer to the closest enemy model, provided it ends that move as close as possible to the closest enemy unit.</characteristic>
           </characteristics>
         </profile>
-        <profile id="4ba4-2d3a-a3b2-2a3c" name="UPHOLD THE HONOUR OF THE EMPEROR" hidden="false" typeId="d07f-b12b-1c73-fa2c" typeName="Templar Vow">
+        <profile id="4ba4-2d3a-a3b2-2a3c" name="Uphold the Honour of the Emperor" hidden="false" typeId="d07f-b12b-1c73-fa2c" typeName="Templar Vow">
           <characteristics>
-            <characteristic name="Effect" typeId="fcc3-ca7a-d697-7098">You can re-roll Charge rolls made for this unit.</characteristic>
+            <characteristic name="Effect" typeId="fcc3-ca7a-d697-7098"> If this unit has the INFANTRY keyword:
+■ At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent's Level of Control over that objective marker is greater than yours at the end of the phase.
+■ If the mission you are playing features Actions, this unit is elivible to start to perform an Action in a turn in which it Advanced.
+            </characteristic>
           </characteristics>
         </profile>
       </profiles>
