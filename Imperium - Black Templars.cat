@@ -43,7 +43,22 @@
     </constraints>
     <selectionEntry id="5558-f47e-9f45-3fcb" name="Templar Vows Reference" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="4ba4-2d3a-a3b2-2a0c" name="UNBRIDLED BLOODLUST" hidden="false" typeId="d07f-b12b-1c73-fa2c" typeName="Templar Vow">
+        <profile id="4ba4-2d3a-a3b2-2a0c" name="ABHOR THE WITCH, DESTROY THE WITCH" hidden="false" typeId="d07f-b12b-1c73-fa2c" typeName="Templar Vow">
+          <characteristics>
+            <characteristic name="Effect" typeId="fcc3-ca7a-d697-7098">You can re-roll Charge rolls made for this unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4ba4-2d3a-a3b2-2a1c" name="ACCEPT ANY CHALLENGE, NO MATTER THE ODDS" hidden="false" typeId="d07f-b12b-1c73-fa2c" typeName="Templar Vow">
+          <characteristics>
+            <characteristic name="Effect" typeId="fcc3-ca7a-d697-7098">You can re-roll Charge rolls made for this unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4ba4-2d3a-a3b2-2a2c" name="SUFFER NOT THE UNCLEAN TO LIVE" hidden="false" typeId="d07f-b12b-1c73-fa2c" typeName="Templar Vow">
+          <characteristics>
+            <characteristic name="Effect" typeId="fcc3-ca7a-d697-7098">You can re-roll Charge rolls made for this unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4ba4-2d3a-a3b2-2a3c" name="UPHOLD THE HONOUR OF THE EMPEROR" hidden="false" typeId="d07f-b12b-1c73-fa2c" typeName="Templar Vow">
           <characteristics>
             <characteristic name="Effect" typeId="fcc3-ca7a-d697-7098">You can re-roll Charge rolls made for this unit.</characteristic>
           </characteristics>
