@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="e0af-67df-9d63-8fb7" name="Imperium - Adeptus Astartes - Space Marines" revision="104" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue" authorName="Acebaur">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="e0af-67df-9d63-8fb7" name="Imperium - Adeptus Astartes - Space Marines" revision="117" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue" authorName="Acebaur">
   <categoryEntries>
     <categoryEntry id="5179-8ede-45e3-49a2" name="Tacticus" hidden="false"/>
     <categoryEntry id="930d-2875-125b-a65e" name="Bladeguard Veteran Squad" hidden="false"/>
@@ -209,15 +209,7 @@
     <entryLink import="true" name="Heavy Intercessor Squad" hidden="false" type="selectionEntry" id="44a8-9703-5aed-64f" targetId="7324-e591-939b-b675"/>
     <entryLink import="true" name="Hellblaster Squad" hidden="false" type="selectionEntry" id="4c8-e877-566b-a1ee" targetId="7102-b3a4-9bfc-1b84"/>
     <entryLink import="true" name="Hunter [Legends]" hidden="false" type="selectionEntry" id="d318-96c5-d134-fa02" targetId="3ad-729-3235-4777"/>
-    <entryLink import="true" name="Impulsor" hidden="false" type="selectionEntry" id="3fe5-fdf6-5abc-c60f" targetId="bfb1-7512-e1a3-9fa2">
-      <modifiers>
-        <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4d18-436e-360c-a380" shared="true" id="ea39-87e9-b86c-25f8" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-    </entryLink>
+    <entryLink import="true" name="Impulsor" hidden="false" type="selectionEntry" id="3fe5-fdf6-5abc-c60f" targetId="bfb1-7512-e1a3-9fa2"/>
     <entryLink import="true" name="Inceptor Squad" hidden="false" type="selectionEntry" id="28ff-a147-b488-2411" targetId="3e14-2a-d358-6ada"/>
     <entryLink import="true" name="Incursor Squad" hidden="false" type="selectionEntry" id="19ec-f615-a22c-431" targetId="527c-120e-9e4e-9bfe"/>
     <entryLink import="true" name="Infernus Squad" hidden="false" type="selectionEntry" id="20b3-f504-9c79-bc74" targetId="b007-fc7b-8e4a-b017"/>
@@ -266,15 +258,7 @@
     <entryLink import="true" name="Scout Bike Squad [Legends]" hidden="false" type="selectionEntry" id="8650-9036-5842-d423" targetId="699f-a59e-baa6-ba8b"/>
     <entryLink import="true" name="Rhino" hidden="false" type="selectionEntry" id="efc9-2aff-c5b-6790" targetId="a14e-75ca-ef91-397f"/>
     <entryLink import="true" name="Predator Annihilator" hidden="false" type="selectionEntry" id="57a1-1350-9b3c-9452" targetId="31a-6c3e-5843-4023"/>
-    <entryLink import="true" name="Repulsor Executioner" hidden="false" type="selectionEntry" id="6d49-e23e-978b-7160" targetId="9259-f166-15f2-7f79">
-      <modifiers>
-        <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4d18-436e-360c-a380" shared="true" id="836b-80a8-4879-48f0" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-    </entryLink>
+    <entryLink import="true" name="Repulsor Executioner" hidden="false" type="selectionEntry" id="6d49-e23e-978b-7160" targetId="9259-f166-15f2-7f79"/>
     <entryLink import="true" name="Lieutenant" hidden="false" type="selectionEntry" id="9770-3a56-619e-f390" targetId="ce15-e87e-7cff-b129"/>
     <entryLink import="true" name="Relic Terminator Squad [Legends]" hidden="false" type="selectionEntry" id="9f08-f0fd-cfdd-57b1" targetId="9d3f-134e-1f5b-531a"/>
     <entryLink import="true" name="Predator Destructor" hidden="false" type="selectionEntry" id="90c2-1ed5-bebf-73e8" targetId="d4c8-dd6a-cd7a-ccc3"/>
@@ -287,15 +271,7 @@
     <entryLink import="true" name="Reiver Squad" hidden="false" type="selectionEntry" id="72c7-e95f-cade-27d7" targetId="a7ae-e495-683b-7c90"/>
     <entryLink import="true" name="Captain" hidden="false" type="selectionEntry" id="91e3-a419-8c58-98f5" targetId="6c10-5b51-5bc0-8d2c"/>
     <entryLink import="true" name="Techmarine" hidden="false" type="selectionEntry" id="c7ef-84b1-fdf5-c5a8" targetId="e671-cd3a-2b03-3954"/>
-    <entryLink import="true" name="Repulsor" hidden="false" type="selectionEntry" id="b6f6-3b6d-2508-7c12" targetId="e8e-fc5c-c689-99ca">
-      <modifiers>
-        <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4d18-436e-360c-a380" shared="true" id="2d21-d3d5-5f76-b689" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-    </entryLink>
+    <entryLink import="true" name="Repulsor" hidden="false" type="selectionEntry" id="b6f6-3b6d-2508-7c12" targetId="e8e-fc5c-c689-99ca"/>
     <entryLink import="true" name="Scout Sniper Squad [Legends]" hidden="false" type="selectionEntry" id="b90d-26e-4e1e-73ab" targetId="9a96-8de3-f4aa-7497">
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -3103,33 +3079,7 @@
       </profiles>
       <comment>A5 WS 2+</comment>
     </selectionEntry>
-    <selectionEntry id="ebda-08ed-994a-b579" name="Master-crafted Power Weapon" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="7bf3-e01c-dce7-60fd" name="Master-crafted Power Weapon" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
-          <characteristics>
-            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-            <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
-            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
-            <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
-            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
-            <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
-          </characteristics>
-          <modifiers>
-            <modifier type="set" value="6" field="2337-daa1-6682-b110">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2d7f-1892-2fd0-e29c" shared="true" id="be0c-55b4-b845-ff71"/>
-                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b365-b786-8fe6-1293" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-        </profile>
-      </profiles>
-    </selectionEntry>
+    <selectionEntry id="ebda-08ed-994a-b579" name="Master-crafted Power Weapon" hidden="false" collective="false" import="true" type="upgrade"/>
     <selectionEntry id="6e7b-4796-0ba3-a2d0" name="Close Combat Weapon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="f4f9-d665-21c1-2727" name="Close Combat Weapon" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
@@ -3614,7 +3564,7 @@
           <characteristics>
             <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
             <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
@@ -3847,7 +3797,12 @@
         <entryLink import="true" name="Crusade" hidden="false" id="9852-8ea4-b26e-5666" type="selectionEntryGroup" targetId="9a99-f13c-a667-e698" sortIndex="1"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="85"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="75"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
       </costs>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="af45-98a8-8453-539" includeChildSelections="true" includeChildForces="true"/>
@@ -5186,14 +5141,15 @@ this unit, add 1 to any armour saving throw made against that attack.</character
         <categoryLink targetId="bc4b-906d-3e8b-fc45" id="951c-e131-d920-299e" primary="false" name="Heavy Intercessor Squad"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="110"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
       </costs>
       <modifiers>
-        <modifier type="set" value="220" field="51b2-306e-1021-d207">
+        <modifier type="set" value="200" field="51b2-306e-1021-d207">
           <conditions>
             <condition type="atLeast" value="6" field="selections" scope="7324-e591-939b-b675" childId="a762-13b8-c395-6d30" shared="true" id="5fc9-3f06-98f9-94b5" includeChildSelections="true"/>
           </conditions>
@@ -6596,7 +6552,7 @@ this unit, add 1 to any armour saving throw made against that attack.</character
         <profile name="Power Fist" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="2794-4bcf-ec72-6af4">
           <characteristics>
             <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-            <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
             <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
             <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
             <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
@@ -6631,7 +6587,7 @@ this unit, add 1 to any armour saving throw made against that attack.</character
         <profile name="Power Weapon" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="762d-1541-295e-ab81">
           <characteristics>
             <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-            <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
             <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
             <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
             <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
@@ -7703,11 +7659,12 @@ Strategic Reserves.</characteristic>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Vanguard Veteran Squad with Jump Packs" hidden="false" id="9e9c-bf4d-2d40-be82">
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="110"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="95"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="82d2-1671-c882-68a7" primary="true" name="Infantry"/>
@@ -7732,7 +7689,7 @@ Strategic Reserves.</characteristic>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="ea1d-aa1b-39af-5932" includeChildSelections="true"/>
       </constraints>
       <modifiers>
-        <modifier type="set" value="220" field="51b2-306e-1021-d207">
+        <modifier type="set" value="190" field="51b2-306e-1021-d207">
           <conditions>
             <condition type="atLeast" value="6" field="selections" scope="9e9c-bf4d-2d40-be82" childId="8a7f-b578-d274-9769" shared="true" id="c465-ba04-3a7-cc0a"/>
           </conditions>
@@ -8665,6 +8622,11 @@ Strategic Reserves.</characteristic>
             <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <categoryLinks>
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="4463-1fae-cc23-d51d" primary="true" name="Infantry"/>
@@ -9095,7 +9057,12 @@ bearer can be moved during that move</characteristic>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Aggressor Squad" hidden="false" id="129d-2da5-66f3-f4ec">
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="120"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="6f5-7425-b205-cfa7" primary="true" name="Infantry"/>
@@ -9384,7 +9351,7 @@ by 1.</characteristic>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <modifiers>
-        <modifier type="set" value="240" field="51b2-306e-1021-d207">
+        <modifier type="set" value="220" field="51b2-306e-1021-d207">
           <conditions>
             <condition type="atLeast" value="4" field="selections" scope="129d-2da5-66f3-f4ec" childId="72d4-ff18-9328-2bce" shared="true" id="c997-19f1-338e-a1ad"/>
           </conditions>
@@ -10037,9 +10004,14 @@ by 1.</characteristic>
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f89b-84e0-6e3b-f1e2" shared="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f89b-84e0-6e3b-f1e2" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <entryLinks>
@@ -11901,7 +11873,7 @@ by 1.</characteristic>
           <characteristics>
             <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
             <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
@@ -17216,7 +17188,12 @@ by 1.</characteristic>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Hellblaster Squad" hidden="false" id="7102-b3a4-9bfc-1b84">
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="115"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="110"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="5361-b8af-635-cfff" primary="true" name="Infantry"/>
@@ -17371,7 +17348,7 @@ by 1.</characteristic>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <modifiers>
-        <modifier type="set" value="230" field="51b2-306e-1021-d207">
+        <modifier type="set" value="220" field="51b2-306e-1021-d207">
           <conditions>
             <condition type="atLeast" value="6" field="selections" scope="7102-b3a4-9bfc-1b84" childId="622e-57d8-e77f-3e36" shared="true" id="2a0a-7fab-4f4-a4a5" includeChildSelections="true"/>
           </conditions>
@@ -21264,6 +21241,11 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
             <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <modifierGroups>
         <modifierGroup type="and">
@@ -22795,12 +22777,22 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
         </profile>
         <profile name="Drop Pod Assault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2f23-8c83-540c-fa07">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model must start the battle in Reserves, but neither it nor any units embarked within it are counted towards any limits placed on the maximum number of Reserves units you can start the battle with. This model can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. Any units embarked within this model must immediately  disembark after it has been set up on the battlefield, and they must be set up more than 9&quot; away from all enemy models. After this model has been set up on the battlefield, no units can embark within it.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model must start the battle in Reserves and can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. Any units embarked within this model must immediately disembark after it has been set up on the battlefield, and they must be set up more than 9&quot; away from all enemy models.</characteristic>
           </characteristics>
         </profile>
         <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a232-6e38-a6ef-b5f4">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 10 Adeptus Astartes Infantry models. It cannot transport Jump Pack, Wulfen, Gravis, Centurion or Terminator models.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 12 Adeptus Astartes Infantry models. It cannot transport Jump Pack, Wulfen, Gravis, Centurion or Terminator models.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Combat Disembarkation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9571-8021-2d6d-4729">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a unit disembarks from this model after it has been set up on the battlefield, that unit is still eligible to declare a charge this turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Deployment Complete" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f92c-604b-c305-69ff">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once this unit is set up on the battlefield and all units within it have disembarked, until the end of the battle, units cannot embark within this TRANSPORT.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -22813,44 +22805,6 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
         <infoLink name="Deep Strike" hidden="false" type="rule" id="1085-f66-5482-24be" targetId="7cb5-dd6b-dd87-ad3b"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="3a59-a51e-2b13-81dd" targetId="3b76-4053-ece9-6e7d"/>
       </infoLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Weapon Option" hidden="false" id="e931-8a06-d04f-f59f" defaultSelectionEntryId="2d58-50d4-36ac-79e3" sortIndex="2">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="97e0-b69e-2de3-d2e4"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ce8-f364-86ae-5b86"/>
-          </constraints>
-          <entryLinks>
-            <entryLink import="true" name="Storm Bolter" hidden="false" type="selectionEntry" id="2d58-50d4-36ac-79e3" targetId="eb61-5cd0-5242-74cc">
-              <entryLinks>
-                <entryLink import="true" name="Weapon Modifications" hidden="false" id="b414-53e1-5d48-def3" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
-              </entryLinks>
-            </entryLink>
-          </entryLinks>
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Deathwind Launcher" hidden="false" id="6470-7f4c-f107-d0b1">
-              <profiles>
-                <profile name="Deathwind Launcher" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="f77e-4615-560d-7e3b">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+1</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink name="Blast" hidden="false" type="rule" id="5c05-7b57-8c5-cdbc" targetId="6c1f-1cf7-ff25-c99e"/>
-              </infoLinks>
-              <entryLinks>
-                <entryLink import="true" name="Weapon Modifications" hidden="false" id="34ab-cc01-e8a9-d516" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
-              </entryLinks>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <categoryLinks>
         <categoryLink targetId="dbd4-63-af05-998" id="72eb-4a1b-774-a0ba" primary="true" name="Vehicle"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="61a0-6382-70e0-c926" primary="false" name="Imperium"/>
@@ -29831,6 +29785,19 @@ You can attach this model to one of the above units even if one Captain, Chapte
                       </modifiers>
                     </entryLink>
                   </entryLinks>
+                  <profiles>
+                    <profile name="Master-crafted Power Weapon" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="18e6-2f4f-b709-d127">
+                      <characteristics>
+                        <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                        <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
+                        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+                        <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                        <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
                 </entryLink>
                 <entryLink id="3009-ebd0-faf7-259f" name="Relic Shield" hidden="false" collective="false" import="true" targetId="6198-7228-4a39-7926" type="selectionEntry">
                   <profiles>
@@ -30626,13 +30593,6 @@ You can attach this model to one of the above units even if one Captain, Chapte
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
             <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol</characteristic>
           </characteristics>
-          <modifiers>
-            <modifier type="set" value="2+" field="94d-8a98-cf90-183e">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2d7f-1892-2fd0-e29c" shared="true" id="1ec4-fbba-29cb-3e2e" includeChildForces="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
         </profile>
       </profiles>
       <infoLinks>
@@ -37183,42 +37143,6 @@ per turn.</characteristic>
           </conditionGroups>
         </modifier>
       </modifiers>
-      <modifierGroups>
-        <modifierGroup type="and">
-          <modifiers>
-            <modifier type="increment" value="1" field="2337-daa1-6682-b110" affects="self.entries.profiles.Melee Weapons" scope="model">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="model" childId="e7f9-66f5-9b9e-c587" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" value="Terminator Honours" field="annotation" join=", " affects="self.entries.profiles.Melee Weapons" scope="model">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="model" childId="e7f9-66f5-9b9e-c587" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="750a-a2ec-90d3-21fe" affects="self.entries.profiles.Unit" scope="model">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="model" childId="e7f9-66f5-9b9e-c587" shared="true" includeChildSelections="true"/>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="9cfd-1c32-585f-7d5c" shared="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="append" value="Terminator Honours" field="annotation" affects="self.entries.profiles.Unit" scope="model" join=",">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="model" childId="e7f9-66f5-9b9e-c587" shared="true" includeChildSelections="true"/>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="9cfd-1c32-585f-7d5c" shared="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-        </modifierGroup>
-      </modifierGroups>
       <comment>Crusade content</comment>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Master of the Deathwing" hidden="false" id="6a76-8e86-d359-d596">
@@ -37363,6 +37287,25 @@ per turn.</characteristic>
       </profiles>
       <comment>S6</comment>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Astartes Chainsword" hidden="false" id="466f-9ef9-f5b2-cd26" collective="true">
+      <profiles>
+        <profile name="Astartes Chainsword" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="1700-6570-9b6f-209f">
+          <characteristics>
+            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+            <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
+            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+            <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Sustained Hits 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <comment>A4 WS 3+ Sus1 Collective</comment>
+      <infoLinks>
+        <infoLink name="Sustained Hits" id="4fa6-ddcb-693b-8184" hidden="false" type="rule" targetId="1897-c22c-9597-12b1"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="90c7-c55c-21e2-2232" name="Rites of Battle" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -37382,7 +37325,7 @@ per turn.</characteristic>
     </profile>
     <profile name="Tactical Precision" hidden="false" id="b07f-3052-e85f-d6d3" typeName="Abilities" typeId="9cc3-6d83-4dd3-9b64">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, weapons equipped by models in that unit have the LETHAL HITS ability.</characteristic>
       </characteristics>
     </profile>
     <profile name="Litany of Hate" hidden="false" id="3b72-1499-de01-95bb" typeName="Abilities" typeId="9cc3-6d83-4dd3-9b64">
@@ -37418,7 +37361,7 @@ per turn.</characteristic>
     </profile>
     <profile name="Astartes Banner" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4873-996f-a8a2-bcb1">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -37511,44 +37454,7 @@ For the purposes of determining which models can embark within a TRANSPORT model
             </rule>
           </rules>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Righteous Crusaders" hidden="false" id="4d18-436e-360c-a380">
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <profiles>
-            <profile name="Templar Vows" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5b6b-2f54-a092-39b2">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the first battle round, select one of the four Templar Vows below to be active for Adeptus Astartes units from your army until the end of the battle</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Vow - Suffer Not the Unclean to Live" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="95ab-4f48-1ffa-57cd">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Melee weapons equipped by models in this unit have the [LETHAL HITS] ability.</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Vow - Accept Any Challenge No Matter the Odds" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8475-f93f-e677-87d7">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Melee weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability.</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Vow - Abhor the Witch, Destroy the Witch" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fd52-b536-1487-a7e3">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Models in this unithave a 4+ invulnerable save against Psychic Attacks and melee weapons equipped by models in this unit 
-have the [ANTI-PSYKER 4+] ability.</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Vow - Uphold the Honour of the Emperor" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cc51-2c2c-ccd1-fad7">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Models in this unit have the Feel No Pain 6+ ability and a Leadership characteristic of 5+.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Champions of Russ" hidden="false" id="7047-73a6-28e-c859">
+        <selectionEntry type="upgrade" import="true" name="Champions of Russ" hidden="true" id="7047-73a6-28e-c859">
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
@@ -37631,6 +37537,25 @@ At the end of each player’s turn, you can select one of the Sagas listed below
               </characteristics>
             </profile>
           </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Vindication Task Force" hidden="false" id="d01e-ca08-d6c0-da0c">
+          <profiles>
+            <profile name="Purge and Sanctify" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cad7-ce0a-06c7-ec11">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time an attack targets an Ancient unit from your army, if that unit is within range of one or more objective markers and the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll.
+
+
+Each time a Crusader Squad unit from your army makes a Righteous Zeal move, that unit can end that move as close as possible to the closest objective marker instead of as close as possible to the closest enemy unit.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Stormlance Task Force" hidden="false" id="50ed-e07c-8f6b-b035">
           <profiles>
@@ -37816,8 +37741,7 @@ Each time a model in this unit makes an attack, you can ignore any or all modi
           <profiles>
             <profile name="Wrathful Procession" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1bae-8930-94fc-3c52">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the battle round, you can select one of the Litanies listed below. If you do, until the end of the battle round, that Litany is active and its effects apply to all Adeptus Astartes Infantry and
-Adeptus Astartes Mounted units from your army.
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the battle round, you can select one of the Litanies listed below. If you do, until the end of the battle round, that Litany is active and its effects apply to all Adeptus Astartes Infantry and Adeptus Astartes Mounted units from your army.
 
 
 Chorus of Relentless Hate
@@ -37878,6 +37802,147 @@ Their Appointed Hour: You can re‑roll Advance and Charge rolls made for this
               </characteristics>
             </profile>
           </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Saga of the Beastslayer" hidden="false" id="8ae6-3345-d599-6847">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="94bb-3284-ee14-57a1" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile name="Legendary Slayers" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5e22-679b-47b1-3ffe">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time an ADEPTUS ASTARTES model from your army makes an attack, if that attack targets a CHARACTER, MONSTER or VEHICLE unit or if your Saga is completed (see below), that attack has the [LETHAL HITS] ability.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Saga of the Beastslayer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4766-bfeb-06d3-f9c4">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the first battle round, your Beastslayer tally is 0, and you determine your Beastslayer target by halving the number of units from your opponent&apos;s army that have one or more of the following keywords (rounding up): CHARACTER, MONSTER, VEHICLE.
+
+
+Each time an ADEPTUS ASTARTES unit from your army shoots or fights, after all of those attacks have been resolved, add 1 to your Beastslayer tally for each enemy unit with one or more of the following keywords destroyed by those attacks: CHARACTER, MONSTER, VEHICLE.
+
+
+Once your Beastslayer tally is equal to or greater than your Beastslayer target, your Saga is completed.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Saga of the Bold" hidden="false" id="88cf-43ec-7643-c38a">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="94bb-3284-ee14-57a1" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile name="Heroes ALL" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d678-afe6-2f42-d6ae">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time an ADEPTUS ASTARTES unit from your army is selected to shoot or fight, apply one of the following when resolving those attacks:
+
+If your Saga is completed (see below), you can re-roll one Hit roll, one Wound roll and one Damage roll.
+
+Otherwise, if that unit is a SPACE WOLVES CHARACTER unit, you can re-roll one Hit roll, one Wound roll or one Damage roll.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Saga of the Bold" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ec48-30cb-a35f-f20e">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a SPACE WOLVES CHARACTER unit from your army does one of the following, that unit achieves that Boast. Once three or more different Boasts have been achieved by units from your army, your Saga is completed.
+
+
+Your Hide as a Trophy: That unit destroys your Oath of Moment target. Slay Them All: That unit destroys your Oath of Moment target, and that is the second Oath of Moment target destroyed by that unit in this battle.
+
+
+Overrun Their Position: At the end of either player&apos;s turn, that unit is wholly within your opponent&apos;s deployment zone.
+
+
+Hold the Line: From the second battle round onwards, at the end of your Command phase, that unit is within range of an objective marker you control that is not within your deployment zone.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Saga of the Hunter" hidden="false" id="79c6-c9c2-7c0a-32e7">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="94bb-3284-ee14-57a1" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile name="Pack&apos;s Quarry" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f08f-1eab-3ff0-b044">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in a SPACE WOLVES unit from your army makes a melee attack that targets an enemy unit, if that
+enemy unit is within Engagement Range of one or more other ADEPTUS ASTARTES units from your army, or if the attacking unit contains more models than that enemy unit:
+
+
+Add 1 to the Hit roll.
+
+
+If your Saga is completed (see below),
+add 1 to the Wound roll as well.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Saga of the Hunter" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="778d-24b3-c71f-bd9c">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the first battle round, your Quarry tally is 0. Each time an ADEPTUS ASTARTES unit from your army
+fights, after all of those attacks have been resolved, add 1 to your Quarry tally for each enemy unit destroyed by those attacks. 
+
+
+Once your Quarry tally is equal to or greater than the number shown in the table below (depending on the battle size),  your Saga is completed.
+
+
+BATTLE SIZE     QUARRY TALLY
+
+
+Incursion              2
+
+
+Strike Force         3
+
+
+Onslaught            4</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Companions of Vehemence" hidden="false" id="0142-a6c9-a4f0-48b9">
+          <profiles>
+            <profile name="Righteous Fervour" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="84b4-37d6-078c-fd49">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">You can re-roll Advance and Charge rolls made for Adeptus Astartes units from your army.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Godhammer Assault Force" hidden="false" id="2e96-fda4-b063-baee">
+          <profiles>
+            <profile name="Shock and Awe" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8d9c-b06d-84ca-b309">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time an ADEPTUS ASTARTES unit from your army declares a charge, if it disembarked from a TRANSPORT this turn, after selecting the targets of that charge, select one of those targets; that enemy unit must take a Battle-shock test.
+
+
+Each time a model in an ADEPTUS ASTARTES unit from your army makes a melee attack, if it disembarked from a TRANSPORT this turn, add 1 to the Hit roll.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -37975,110 +38040,7 @@ Their Appointed Hour: You can re‑roll Advance and Charge rolls made for this
             <constraint type="max" value="3" field="selections" scope="force" shared="true" id="140d-ea7c-f640-4e3e" includeChildSelections="true"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Righteous Crusaders Enhancements" hidden="false" id="2c33-ce59-2492-e44">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Perdition&apos;s Edge" hidden="false" id="55fd-608e-6766-f17b">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a5cc-3fb4-4e10-a775" includeChildSelections="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Perdition&apos;s Edge" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cc58-c199-50fa-c288">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes model only.
-
-
-■ Improve the Strength and Armour Penetration characteristics of the bearer’s melee weapons by 1.
-■ If the Suffer Not the Unclean to Live vow is active for your army, add 1 to the Attacks characteristic of the bearer’s melee weapons as well.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Witchseeker Bolts" hidden="false" id="c6e7-acb2-dac8-e2f2">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="898e-e47d-cb34-c08c" includeChildSelections="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Witchseeker Bolts" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="af0c-615c-95e3-47d9">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes model only.
-
-
-■ The bearer’s ranged weapons have the [PRECISION], [ANTI-PSYKER 4+] and [DEVASTATING WOUNDS] abilities. 
-■ If the Abhor the Witch, Destroy the Witch vow is active for your army, each time the bearer makes a ranged attack that targets a Psyker unit, you can re-roll the Hit roll and you can re-roll the Wound roll.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="10"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Sigismund&apos;s Seal" hidden="false" id="3ae-8543-64c0-8606">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a021-c96-5450-32ea" includeChildSelections="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Sigismund&apos;s Seal" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="baea-44fb-a555-d3da">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes model only.
-
-
-■ Improve the Attacks characteristic of the bearer’s melee weapons by 1.
-■ While the bearer is leading a unit, if the Accept Any Challenge, No Matter the Odds vow is active for your army, each time a model in that unit makes a melee attack, a successful unmodified Hit roll of 5+ scores a Critical Hit.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Tannhauser&apos;s Bones" hidden="false" id="a813-c65f-b3c5-a512">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f61f-4d1c-bf34-728f" includeChildSelections="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Tannhauser&apos;s Bones" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ff53-8354-da1c-529d">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes model only.
-
-
-■ Each time an attack is allocated to the bearer, halve the Damage characteristic of that attack.
-■ While the bearer is leading a unit, if the Uphold the Honour of the Emperor vow is active for your army, models in that unit have the Feel No Pain 5+ ability.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="35"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition type="lessThan" value="1" field="selections" scope="force" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true"/>
-                        <condition type="lessThan" value="1" field="selections" scope="roster" childId="4d18-436e-360c-a380" shared="true" id="51a8-8918-ce5b-348" includeChildSelections="true" includeChildForces="true"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c043-2ea5-54bc-5109"/>
-            <constraint type="max" value="3" field="selections" scope="force" shared="true" id="efc3-e416-8f5e-e1af" includeChildSelections="true"/>
-          </constraints>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Champions of Russ Enhancements" hidden="false" id="8538-ed61-bab0-244a">
+        <selectionEntryGroup name="Champions of Russ Enhancements(Obsolet)" hidden="true" id="8538-ed61-bab0-244a">
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditionGroups>
@@ -38867,6 +38829,103 @@ is Battle-shocked, models in that unit have the Feel No Pain 4+ ability instead.
                     <condition type="lessThan" value="1" field="selections" scope="force" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true"/>
                     <condition type="lessThan" value="1" field="selections" scope="roster" childId="abb4-dc89-4e0-9150" shared="true" id="e5a3-5e3c-ead5-631a" includeChildSelections="true" includeChildForces="true"/>
                   </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Godhammer Assault Force Enhancements" hidden="false" id="e8e8-a582-a08a-d17a">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Paragon of Fury" hidden="false" id="4464-cc02-22a9-ca6a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9391-ebd9-36f0-9220" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Paragon of Fury" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="60af-9446-db5a-5bdb">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only. Add 2 to the Strength characteristic of melee weapons equipped by the bearer. Each time a melee attack made by the bearer is allocated to an enemy model, if the bearer disembarked from a TRANSPORT this turn, add 1 to the Damage characteristic of that attack.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Battle-Psalm Precentor" hidden="false" id="9881-8ee0-c631-a4d7">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8439-85e5-4506-8b5a" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Battle-Psalm Precentor" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0928-3552-6645-150e">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only. Each time the bearer&apos;s unit declares a charge, if an enemy unit takes a Battle-shock test as a result of the Shock and Awe Detachment rule, subtract 1 from that Battle-shock test.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="10"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Augury Servo-Host" hidden="false" id="f903-dbd2-ac75-ec50">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ee25-92fc-7e5c-521e" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Augury Servo-Host" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2d00-7169-13d4-6cf2">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only. At the start of your Shooting phase, select one enemy unit within 12&quot; and visible to the bearer. Until the end of the phase, models in that unit cannot have the Benefit of Cover.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Herald of Sacred Slaughter" hidden="false" id="ca80-b44c-0ddb-2e9c">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4480-cbce-96f5-e9a2" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Herald of Sacred Slaughter" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dab5-c0d3-7c97-e6f0">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only. In the Declare Battle Formations step, if the bearer starts the battle embarked within a DEDICATED TRANSPORT, that DEDICATED TRANSPORT has the Scouts 9&quot; ability.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="50dd-25f6-307c-4854"/>
+            <constraint type="max" value="3" field="selections" scope="force" shared="true" id="cae1-0d07-dcc4-4467" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="force" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true"/>
+                        <condition type="lessThan" value="1" field="selections" scope="force" childId="2e96-fda4-b063-baee" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
@@ -40144,6 +40203,644 @@ Enhancement. When it does, until the start of your next Command phase, all Ange
                     <condition type="lessThan" value="1" field="selections" scope="roster" childId="dcc7-f9de-d4f2-69d0" shared="true" id="b924-b924-23f2-f2f3" includeChildSelections="true" includeChildForces="true"/>
                     <condition type="lessThan" value="1" field="selections" scope="force" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true"/>
                   </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Saga of the Hunter" hidden="false" id="f041-f684-fa3f-17d7">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="94bb-3284-ee14-57a1" shared="true"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="force" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true"/>
+                        <condition type="lessThan" value="1" field="selections" scope="force" childId="79c6-c9c2-7c0a-32e7" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Wolf Master" hidden="false" id="acd9-a846-0801-a603">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="force" shared="true" id="bf9e-3c34-735f-17b7" includeChildSelections="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Wolf Master" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="eb38-64c3-c056-f2c8">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">SPACE WOLVES model only. In your Command phase, select one friendly SPACE WOLVES unit within 9&quot; of the bearer. Until the start of your next Command phase, teeth and claws and Tyrnak and Fenrir weapons equipped by models in that unit have the [LETHAL HITS] ability.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="5"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a604-b7ef-c095-b672" shared="true"/>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a8df-a70e-2b8b-7561" shared="true"/>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="5cee-49d6-6bd5-b361" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Swift Hunter" hidden="false" id="c8f1-9a98-9a40-019e">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="force" shared="true" id="41bc-9d4e-c37a-f55c" includeChildSelections="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Swift Hunter" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="598f-72f9-f492-f02a">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">SPACE WOLVES model only. Models in the bearer&apos;s unit have the Scouts 7&quot; ability.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a604-b7ef-c095-b672" shared="true"/>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a8df-a70e-2b8b-7561" shared="true"/>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="5cee-49d6-6bd5-b361" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Feral Rage" hidden="false" id="4a05-5c57-2056-5c16">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="force" shared="true" id="bf5b-9ddc-15cb-0aa8" includeChildSelections="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Feral Rage" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5962-3e66-6d0b-5263">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only. Add 1 to the Attacks characteristic of melee weapons equipped by the bearer. Each time the bearer ends a Charge move, until the end of the turn, add an additional 1 to the Attacks characteristic of those weapons.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Fenrisian Grit" hidden="false" id="bc23-fee8-90ff-0508">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="force" shared="true" id="a63f-f420-47c0-8dca" includeChildSelections="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Fenrisian Grit" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5aaa-b2a0-8772-2f88">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only. The bearer has the Feel No Pain 4+ ability.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aa80-8dd3-0feb-5565"/>
+            <constraint type="max" value="3" field="selections" scope="force" shared="true" id="7836-2994-9721-45b9" includeChildSelections="true"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Saga of the Bold" hidden="false" id="91c2-6e61-a838-2124">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="94bb-3284-ee14-57a1" shared="true"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="force" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true"/>
+                        <condition type="lessThan" value="1" field="selections" scope="force" childId="88cf-43ec-7643-c38a" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Thunderwolf&apos;s Fortitude" hidden="false" id="9e82-156f-0b8e-dcb1">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="force" shared="true" id="1b99-f856-43c1-d4a8" includeChildSelections="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Thunderwolf&apos;s Fortitude" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ebd0-040d-222d-66cd">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only. The first time the bearer is destroyed, remove it from play, then, at the end of the phase, roll one D6: on a 2+, set the bearer back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of  one or more enemy units, with 3 wounds remaining.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Hordeslayer" hidden="false" id="8edb-b724-7f29-2d0e">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="force" shared="true" id="720c-35bf-c0c8-0c12" includeChildSelections="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Hordeslayer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a105-cb8f-1bab-d47e">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">SPACE WOLVES model only. At the start of the Fight phase, if there are more enemy models than friendly models wholly within 6&quot; of the bearer, until the end of the phase, add 2 to the Attacks characteristic of melee weapons equipped by the bearer. If the bearer&apos;s unit has achieved one or more Boasts, add 3 to the Attacks characteristic instead.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a604-b7ef-c095-b672" shared="true"/>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a8df-a70e-2b8b-7561" shared="true"/>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="5cee-49d6-6bd5-b361" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Skjald" hidden="false" id="a5ea-ff62-b163-50d0">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="force" shared="true" id="9db2-0329-9311-e123" includeChildSelections="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Skjald" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8d79-f3d6-de63-682e">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only. Each time a SPACE WOLVES CHARACTER unit from your army achieves a Boast, if the bearer is on the battlefield, you gain 1CP.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Braggart&apos;s Steel" hidden="false" id="90d0-1626-4ada-4bf6">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="force" shared="true" id="10cd-4a40-2e98-0539" includeChildSelections="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Braggart&apos;s Steel" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b655-0eb8-00db-a47c">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">SPACE WOLVES model only. Add 2 to the Strength characteristic of melee weapons equipped by the bearer. If the bearer&apos;s unit has achieved one or more Boasts, add 1 to the Damage characteristic of those weapons as well.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a604-b7ef-c095-b672" shared="true"/>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a8df-a70e-2b8b-7561" shared="true"/>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="5cee-49d6-6bd5-b361" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3588-a9af-193c-e813"/>
+            <constraint type="max" value="3" field="selections" scope="force" shared="true" id="eaba-0f7f-8f61-ce17" includeChildSelections="true"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Saga of the Beastslayer" hidden="false" id="a113-89e6-0acb-5d09">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="94bb-3284-ee14-57a1" shared="true"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="force" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true"/>
+                        <condition type="lessThan" value="1" field="selections" scope="force" childId="8ae6-3345-d599-6847" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Helm of the Beastslayer" hidden="false" id="2cc9-f1b3-2fe4-9160">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="force" shared="true" id="53a4-be56-a2a2-5926" includeChildSelections="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Helm of the Beastslayer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ab30-08cd-610e-bbf4">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only. Each time an attack made by a CHARACTER, MONSTER or VEHICLE model targets the bearer&apos;s unit, reduce the Armour Penetration characteristic of that attack by 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Hunter&apos;s Guile" hidden="false" id="bcc6-5adb-6b78-c67d">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="force" shared="true" id="351a-b447-c0bd-fa77" includeChildSelections="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Hunter&apos;s Guile" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7440-88ca-8e87-4dd3">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only. After both players have deployed their armies, select up to three THUNDERWOLF CAVALRY, WULFEN and/or BLOOD CLAWS units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Elder&apos;s Guidance" hidden="false" id="5822-f1c9-9511-b600">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="force" shared="true" id="7071-e05a-f4af-53c4" includeChildSelections="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Elder&apos;s Guidance" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a023-d815-b164-7e5f">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">SPACE WOLVES model only. Once per battle, at the start of the Fight phase, if the bearer is leading a BLOOD CLAWS unit, the bearer can use this Enhancement. If it does, until the end of the phase, improve the Armour Penetration characteristic of melee weapons equipped by models in that unit by 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a604-b7ef-c095-b672" shared="true"/>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a8df-a70e-2b8b-7561" shared="true"/>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="5cee-49d6-6bd5-b361" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Wolf-Touched" hidden="false" id="0ac6-2037-c8bf-9e6d">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="force" shared="true" id="b537-5166-eaf5-f2be" includeChildSelections="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Wolf-Touched" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="65a3-9074-b1a0-48d8">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">SPACE WOLVES model only. Add 2&quot; to the Move characteristic of the bearer. In the Declare Battle Formations step, the bearer can be attached to a WULFEN or WULFEN WITH STORM SHIELDS unit.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
+              </costs>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a604-b7ef-c095-b672" shared="true"/>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a8df-a70e-2b8b-7561" shared="true"/>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="5cee-49d6-6bd5-b361" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a9b0-8a53-be19-6e2d"/>
+            <constraint type="max" value="3" field="selections" scope="force" shared="true" id="2406-647b-ff3e-b792" includeChildSelections="true"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Companions of Vehemence Enhancements" id="eb9b-1814-85c8-5412" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Zealous Vanguard" hidden="false" id="202e-5c71-8b32-a263">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2266-1007-f628-a9cc" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Zealous Vanguard" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4901-13c2-b4fd-db0d">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes model only. Models in the bearer&apos;s unit have the Scouts 6&quot; ability.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Oathbound Exemplar" hidden="false" id="d68a-f663-27d2-3a0a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="210e-b504-2392-82be" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Oathbound Exemplar" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0423-a6c7-2d89-d36d">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes Infantry model only. Add 1 to Advance rolls made for the bearer&apos;s unit. If the mission pack you are playing features Actions, the bearer&apos;s unit is eligible to start to perform an Action in a turn in which it Advanced.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="cf47-a0d7-7207-29dc" shared="true" id="9bcf-9ebb-7ad4-0000" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Incendiary Animus" hidden="false" id="a9d5-2b9c-9393-790f">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3b5a-3c77-0443-9815" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Incendiary Animus" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c86b-03f6-e9f2-a51a">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaplain or Judiciar model only. Improve the Armour Penetration characteristic of melee weapons equipped by models in the bearer&apos;s unit by 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="1fb1-3603-a4bd-485" shared="true" id="55a4-ec9d-9cfe-02e8" includeChildSelections="true" includeChildForces="true"/>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="258c-ef74-d5f1-3a61" shared="true" id="9f66-e36e-2363-8765" includeChildSelections="true" includeChildForces="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Merciless Denunciation" hidden="false" id="a765-2722-06f0-e95b">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ec51-07c0-1391-fd01" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Merciless Denunciation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d3ba-5f97-e3a0-1375">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaplain or Judiciar model only. Each time a model in the bearer&apos;s unit makes a melee attack, you can re-roll the Hit roll.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="1fb1-3603-a4bd-485" shared="true" id="a7a3-1baa-2cc2-e215" includeChildSelections="true" includeChildForces="true"/>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="258c-ef74-d5f1-3a61" shared="true" id="aa8d-adfc-5602-29a6" includeChildSelections="true" includeChildForces="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="022c-8a70-75ee-40d8"/>
+            <constraint type="max" value="3" field="selections" scope="force" shared="true" id="bcc4-f58c-70b3-88af" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="force" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true"/>
+                        <condition type="lessThan" value="1" field="selections" scope="force" childId="0142-a6c9-a4f0-48b9" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Vindication Task Force Enhancements" id="5073-6777-739b-08a4" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Warden of Honour" hidden="false" id="d871-d0a9-2368-7f50">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b45c-76aa-f539-f335" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Warden of Honour" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7df2-3317-538f-ed84">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Crusade Ancient model only. While the bearer is leading a unit, each time you roll one D6 for the bearer&apos;s Vengeful Exhortation ability, add 1 to the result.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="9bb1-7b6c-326a-da2c" shared="true" id="595f-b305-b19d-29ee" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Consecrating Aura" hidden="false" id="8b39-4c01-fa55-31a9">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="074d-0579-06ef-5c5c" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Consecrating Aura" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="95e2-b9bb-1102-0e18">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes model only. Models in the bearer&apos;s unit have a 5+ invulnerable save.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Imperialis of the Eternal Crusade" hidden="false" id="cc10-1ce0-35d0-e079">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8cd3-f1d2-d9ae-b5a5" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Imperialis of the Eternal Crusade" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="76f0-2c90-49b4-fb7f">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ancient model only. Each time an enemy unit selects the bearer&apos;s unit as a target of a charge, subtract 2 from the Charge roll (this is not cumulative with any other negative modifiers to that Charge roll).</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="9bb1-7b6c-326a-da2c" shared="true" id="bc20-394b-503c-d9a0" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Orb of the Emperor&apos;s Aegis" hidden="false" id="9104-22d2-93a0-f881">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f360-a4dc-93df-179e" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Orb of the Emperor&apos;s Aegis" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="511a-9f7c-83b1-d3ce">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes model only. Models in the bearer&apos;s unit have the Deep Strike ability.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="10"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e1d1-6b2d-7af0-0f87"/>
+            <constraint type="max" value="3" field="selections" scope="force" shared="true" id="dacc-c966-6a6e-c16d" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="force" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true"/>
+                        <condition type="lessThan" value="1" field="selections" scope="force" childId="d01e-ca08-d6c0-da0c" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
@@ -42896,6 +43593,13 @@ Until the end of the phase, this model&apos;s melee weapons have that ability.</
       <description>If your Army Faction is Adeptus Astartes, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Oath of Moment target. Each time a model with this ability makes an attack that targets your Oath of Moment target:
 ■ You can reroll the Hit roll
 ■ If you are using a Codex: Space Marines Detachment and your army does not include one or more units with the Black Templars, Blood Angels, Dark Angels, Deathwatch or Space Wolves keywords, add 1 to the Wound roll as well.</description>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </rule>
   </sharedRules>
   <infoLinks>

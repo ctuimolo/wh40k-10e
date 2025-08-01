@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="8106-aad2-918a-9ac" name="Chaos - Chaos Knights Library" revision="26" battleScribeVersion="2.03" library="true" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="8106-aad2-918a-9ac" name="Chaos - Chaos Knights Library" revision="27" battleScribeVersion="2.03" library="true" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue">
   <categoryEntries>
     <categoryEntry id="99dc-0f47-85e2-75da" name="War Dog" hidden="false">
       <modifiers>
@@ -112,22 +112,22 @@
   <sharedSelectionEntries>
     <selectionEntry id="8df0-fc3c-8ced-ffce" name="War Dog Executioner" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="force" value="6" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b0aa-5b7a-4a18-1c9f" type="max"/>
+        <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b0aa-5b7a-4a18-1c9f" type="max"/>
       </constraints>
       <profiles>
         <profile id="b861-c239-8fa2-afa5" name="War Dog Executioner" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">10</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">9</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">12</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">14</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
-            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">8</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">6</characteristic>
           </characteristics>
         </profile>
         <profile id="7e36-46d2-4914-c4af" name="Executioner" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes an attack that targets a unit Below Half-strength, add 1 to the Hit roll.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes an attack that targets a unit Below Half-strength, add 1 to the Hit roll. Each time an enemy unit is destroyed as the result of this model&apos;s attacks, before removing the last model in that unit from the battlefield, each other unit from your opponent&apos;s army that is within 3&quot; of it must take a Battle-shock test</characteristic>
           </characteristics>
         </profile>
         <profile id="1d7c-736f-d076-8966" name="Invulnerable Save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -142,16 +142,14 @@
             <modifier type="append" field="name" value="D3"/>
           </modifiers>
         </infoLink>
-        <infoLink id="4c84-8a9e-3fbc-3de8" name="Damaged: 1-4 wounds remaining" hidden="false" targetId="97fd-09c5-60a8-63c4" type="profile"/>
-        <infoLink id="4f22-0266-8f95-e3c5" name="Forged in Terror (Aura)" hidden="false" targetId="9717-2058-eae3-602e" type="profile"/>
+        <infoLink id="4c84-8a9e-3fbc-3de8" name="Damaged: 1-5 wounds remaining" hidden="false" targetId="97fd-09c5-60a8-63c4" type="profile"/>
         <infoLink id="ee05-6f4a-b0b2-200b" name="Harbingers of Dread" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
         <infoLink name="Dreaded Masters" id="2693-6ee8-4245-05b1" hidden="false" type="rule" targetId="36df-7a0b-e5b7-5f29"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0368-0a60-e34a-3438" name="Faction: Chaos Knights" hidden="false" targetId="bb67-f191-6562-acc7" primary="false"/>
-        <categoryLink id="36b0-6d3c-5d21-28f3" name="Vehicle" hidden="false" targetId="dbd4-63-af05-998" primary="false"/>
+        <categoryLink id="36b0-6d3c-5d21-28f3" name="Vehicle" hidden="false" targetId="dbd4-63-af05-998" primary="true"/>
         <categoryLink id="b8e4-40f2-6789-53d0" name="Walker" hidden="false" targetId="6dda-e157-334d-e93a" primary="false"/>
-        <categoryLink id="a7ca-79cb-170e-15fe" name="Battleline" hidden="false" targetId="e338-111e-d0c6-b687" primary="true"/>
         <categoryLink id="223f-f780-9db0-d39a" name="Chaos" hidden="false" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink id="0a45-b4a0-05b4-8755" name="War Dog" hidden="false" targetId="99dc-0f47-85e2-75da" primary="false"/>
         <categoryLink id="8c55-b07e-303f-eee8" name="Executioner" hidden="false" targetId="370b-1eb7-eac6-491c" primary="false"/>
@@ -194,6 +192,7 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="df42-5d71-b03d-14d3" name="Armoured feet" hidden="false" collective="false" import="true" targetId="6638-278a-5331-d1ff" type="selectionEntry"/>
+        <entryLink import="true" name="Character" hidden="false" id="0bf5-7d82-2797-25bf" type="selectionEntry" targetId="960f-e2ce-a467-99d7"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="130"/>
@@ -212,6 +211,16 @@
               </conditions>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="set-primary" value="e338-111e-d0c6-b687" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="6ba6-1e1b-1b23-6fe4" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="6" field="b0aa-5b7a-4a18-1c9f">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="6ba6-1e1b-1b23-6fe4" shared="true" includeChildSelections="true" includeChildForces="false"/>
+          </conditions>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
@@ -232,13 +241,6 @@
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
             <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 3</characteristic>
           </characteristics>
-          <modifiers>
-            <modifier type="set" value="2+" field="94d-8a98-cf90-183e">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="8364-7dd6-fadc-a5d2" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
         </profile>
       </profiles>
       <infoLinks>
@@ -303,13 +305,6 @@
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
             <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
           </characteristics>
-          <modifiers>
-            <modifier type="set" value="2+" field="94d-8a98-cf90-183e">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="8364-7dd6-fadc-a5d2" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
         </profile>
       </profiles>
       <costs>
@@ -320,7 +315,7 @@
       <profiles>
         <profile id="cae9-9335-5429-9523" name="Daemonbreath spear" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
           <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
             <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
             <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
@@ -328,13 +323,6 @@
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
             <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Melta 4</characteristic>
           </characteristics>
-          <modifiers>
-            <modifier type="set" value="2+" field="94d-8a98-cf90-183e">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="8364-7dd6-fadc-a5d2" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
         </profile>
       </profiles>
       <infoLinks>
@@ -356,13 +344,6 @@
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
             <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Indirect Fire</characteristic>
           </characteristics>
-          <modifiers>
-            <modifier type="set" value="2+" field="94d-8a98-cf90-183e">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="8364-7dd6-fadc-a5d2" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
         </profile>
       </profiles>
       <infoLinks>
@@ -385,17 +366,6 @@
             <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
             <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
           </characteristics>
-          <modifierGroups>
-            <modifierGroup type="and">
-              <modifiers>
-                <modifier type="set" value="2+" field="95d1-95f-45b4-11d6"/>
-                <modifier type="set" value="6" field="2337-daa1-6682-b110"/>
-              </modifiers>
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="7177-ef6b-50ae-82e2" shared="true" id="d4e4-2941-cb7e-2d00"/>
-              </conditions>
-            </modifierGroup>
-          </modifierGroups>
         </profile>
         <profile id="28e3-9284-5a98-daa7" name="➤ Reaper chaintalon - sweep" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
           <characteristics>
@@ -407,17 +377,6 @@
             <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
             <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
           </characteristics>
-          <modifierGroups>
-            <modifierGroup type="and">
-              <modifiers>
-                <modifier type="set" value="2+" field="95d1-95f-45b4-11d6"/>
-                <modifier type="set" value="12" field="2337-daa1-6682-b110"/>
-              </modifiers>
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="7177-ef6b-50ae-82e2" shared="true" id="f8b6-4e40-e482-dc65"/>
-              </conditions>
-            </modifierGroup>
-          </modifierGroups>
         </profile>
       </profiles>
       <costs>
@@ -455,17 +414,17 @@
     </selectionEntry>
     <selectionEntry id="bbc6-c0ed-24e8-86b7" name="War Dog Stalker" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="force" value="6" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2ba8-ba3f-1a25-cb99" type="max"/>
+        <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2ba8-ba3f-1a25-cb99" type="max"/>
       </constraints>
       <profiles>
         <profile id="ce7f-d704-a682-dcd6" name="War Dog Stalker" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">10</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">9</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">12</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">14</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
-            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">8</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">6</characteristic>
           </characteristics>
         </profile>
         <profile id="56bf-6bad-83b7-3a78" name="Stalker" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -485,20 +444,22 @@
             <modifier type="append" field="name" value="D3"/>
           </modifiers>
         </infoLink>
-        <infoLink id="f5f5-6433-ddd6-23aa" name="Damaged: 1-4 wounds remaining" hidden="false" targetId="97fd-09c5-60a8-63c4" type="profile"/>
-        <infoLink id="da79-bd60-5dfd-b269" name="Forged in Terror (Aura)" hidden="false" targetId="9717-2058-eae3-602e" type="profile"/>
+        <infoLink id="f5f5-6433-ddd6-23aa" name="Damaged: 1-5 wounds remaining" hidden="false" targetId="97fd-09c5-60a8-63c4" type="profile"/>
         <infoLink id="b065-8569-91d8-423a" name="Harbingers of Dread" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
         <infoLink name="Dreaded Masters" id="ae81-1607-e85d-8eac" hidden="false" type="rule" targetId="36df-7a0b-e5b7-5f29"/>
+        <infoLink name="Scouts" id="c556-03ce-f103-7521" hidden="false" targetId="ada6-bac1-ffe0-d6f7" type="rule">
+          <modifiers>
+            <modifier type="append" value="6&quot;" field="name"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4336-a70c-6d53-77c4" name="Faction: Chaos Knights" hidden="false" targetId="bb67-f191-6562-acc7" primary="false"/>
-        <categoryLink id="474d-a979-0984-a6a5" name="Vehicle" hidden="false" targetId="dbd4-63-af05-998" primary="false"/>
+        <categoryLink id="474d-a979-0984-a6a5" name="Vehicle" hidden="false" targetId="dbd4-63-af05-998" primary="true"/>
         <categoryLink id="69b0-8bfd-4782-f891" name="Walker" hidden="false" targetId="6dda-e157-334d-e93a" primary="false"/>
-        <categoryLink id="d40f-a8b5-755b-eb32" name="Battleline" hidden="false" targetId="e338-111e-d0c6-b687" primary="false"/>
         <categoryLink id="3b5a-ef5c-24ad-af0d" name="Chaos" hidden="false" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink id="6c1c-4c5a-6711-328d" name="War Dog" hidden="false" targetId="99dc-0f47-85e2-75da" primary="false"/>
         <categoryLink id="7462-4680-b83d-064d" name="Stalker" hidden="false" targetId="27fa-0f87-9be4-5db1" primary="false"/>
-        <categoryLink id="bcca-3fea-32a2-96eb" name="Character" hidden="false" targetId="9cfd-1c32-585f-7d5c" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="b8a7-8d73-91ca-0a64" name="Carapace weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="537a-10d9-d537-4a0d">
@@ -533,8 +494,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="e953-ddda-60f9-78e0" name="Warlord" hidden="false" collective="false" import="true" targetId="3bee-8c85-68f7-e54b" type="selectionEntry"/>
-        <entryLink id="e26d-a244-a6fb-bce1" name="Enhancements" hidden="false" collective="false" import="true" targetId="18da-1609-c0fb-cf69" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Character" hidden="false" id="db3b-bbfc-9018-7217" type="selectionEntry" targetId="960f-e2ce-a467-99d7"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="140"/>
@@ -554,6 +514,16 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set-primary" value="e338-111e-d0c6-b687" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="6ba6-1e1b-1b23-6fe4" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="6" field="2ba8-ba3f-1a25-cb99">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="6ba6-1e1b-1b23-6fe4" shared="true" includeChildSelections="true" includeChildForces="false"/>
+          </conditions>
+        </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
             <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true"/>
@@ -563,22 +533,22 @@
     </selectionEntry>
     <selectionEntry id="e96b-ac98-7fd2-a155" name="War Dog Karnivore" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="force" value="6" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1df3-61b3-1a11-0900" type="max"/>
+        <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1df3-61b3-1a11-0900" type="max"/>
       </constraints>
       <profiles>
         <profile id="a907-b7f9-b9cf-a620" name="War Dog Karnivore" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">14&quot;</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">10</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">9</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">12</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">14</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
-            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">8</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">6</characteristic>
           </characteristics>
         </profile>
         <profile id="dec4-f0af-5aee-9e79" name="Karnivore" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">You can re-roll Charge rolls made for this model.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">You can re-roll Advance and Charge rolls made for this unit.</characteristic>
           </characteristics>
         </profile>
         <profile id="7616-9c14-acc8-dd08" name="Invulnerable Save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -593,16 +563,15 @@
             <modifier type="append" field="name" value="D3"/>
           </modifiers>
         </infoLink>
-        <infoLink id="928a-574c-f429-72f8" name="Damaged: 1-4 wounds remaining" hidden="false" targetId="97fd-09c5-60a8-63c4" type="profile"/>
-        <infoLink id="64ed-5c29-b545-9331" name="Forged in Terror (Aura)" hidden="false" targetId="9717-2058-eae3-602e" type="profile"/>
+        <infoLink id="928a-574c-f429-72f8" name="Damaged: 1-5 wounds remaining" hidden="false" targetId="97fd-09c5-60a8-63c4" type="profile"/>
         <infoLink id="81c8-fc6f-d880-245b" name="Harbingers of Dread" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
         <infoLink name="Dreaded Masters" id="1bcd-189e-2953-6450" hidden="false" type="rule" targetId="36df-7a0b-e5b7-5f29"/>
+        <infoLink name="Sustained Hits" id="973a-6d37-e05c-ebb9" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e723-2423-466a-923e" name="Faction: Chaos Knights" hidden="false" targetId="bb67-f191-6562-acc7" primary="false"/>
-        <categoryLink id="529f-468f-5f49-a684" name="Vehicle" hidden="false" targetId="dbd4-63-af05-998" primary="false"/>
+        <categoryLink id="529f-468f-5f49-a684" name="Vehicle" hidden="false" targetId="dbd4-63-af05-998" primary="true"/>
         <categoryLink id="ae5a-779f-a067-03a4" name="Walker" hidden="false" targetId="6dda-e157-334d-e93a" primary="false"/>
-        <categoryLink id="87b9-da44-0c89-1d59" name="Battleline" hidden="false" targetId="e338-111e-d0c6-b687" primary="true"/>
         <categoryLink id="07cf-1000-c46c-1fce" name="Chaos" hidden="false" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink id="6023-5063-8842-2df6" name="War Dog" hidden="false" targetId="99dc-0f47-85e2-75da" primary="false"/>
         <categoryLink id="c34d-d6f5-8e71-6910" name="Karnivore" hidden="false" targetId="7177-ef6b-50ae-82e2" primary="false"/>
@@ -620,21 +589,26 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="1f2c-4f33-7df1-3df2" name="Reaper chaintalon" hidden="false" collective="false" import="true" targetId="34bd-d83f-3753-d642" type="selectionEntry">
+        <entryLink id="1f2c-4f33-7df1-3df2" name="Reaper chaintalon" hidden="false" collective="false" import="true" targetId="b370-057b-e544-2bef" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d804-2a74-eb64-1153" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fab3-ff3f-b34b-b43a" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="b6f6-7990-1e22-44d0" name="Slaughterclaw" hidden="false" collective="false" import="true" targetId="c4a1-e0b1-20c1-7092" type="selectionEntry">
+        <entryLink id="b6f6-7990-1e22-44d0" name="Slaughterclaw" hidden="false" collective="false" import="true" targetId="3b8c-e376-02fc-879a" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="431a-767a-86bf-30c8" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24b7-244c-cf53-64ef" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Character" hidden="false" id="f3a2-9e6b-e9ce-1bf1" type="selectionEntry" targetId="960f-e2ce-a467-99d7"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="140"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -647,6 +621,16 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set-primary" value="e338-111e-d0c6-b687" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="6ba6-1e1b-1b23-6fe4" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="6" field="1df3-61b3-1a11-0900">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="6ba6-1e1b-1b23-6fe4" shared="true" includeChildSelections="true" includeChildForces="false"/>
+          </conditions>
+        </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
             <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true"/>
@@ -656,22 +640,23 @@
     </selectionEntry>
     <selectionEntry id="753d-4e02-eda3-4809" name="War Dog Brigand" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="force" value="6" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1995-c5fc-e109-31f1" type="max"/>
+        <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1995-c5fc-e109-31f1" type="max"/>
       </constraints>
       <profiles>
         <profile id="2a67-fd95-e3f9-420e" name="War Dog Brigand" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">10</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">9</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">12</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">14</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
-            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">8</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">6</characteristic>
           </characteristics>
         </profile>
         <profile id="34ad-4a93-4309-03bd" name="Brigand" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a ranged attack that targets the closest eligible enemy unit, improve the Armour Penetration characteristic of that attack by 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ranged weapons equipped by this model have the (IGNORES COVER) ability while targeting enemy units within
+range of one or more objective markers.</characteristic>
           </characteristics>
         </profile>
         <profile id="3b7b-2e72-7d21-e0d2" name="Invulnerable Save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -686,16 +671,14 @@
             <modifier type="append" field="name" value="D3"/>
           </modifiers>
         </infoLink>
-        <infoLink id="aaab-a55c-8c11-d7bf" name="Damaged: 1-4 wounds remaining" hidden="false" targetId="97fd-09c5-60a8-63c4" type="profile"/>
-        <infoLink id="aee6-49c4-bc25-5604" name="Forged in Terror (Aura)" hidden="false" targetId="9717-2058-eae3-602e" type="profile"/>
+        <infoLink id="aaab-a55c-8c11-d7bf" name="Damaged: 1-5 wounds remaining" hidden="false" targetId="97fd-09c5-60a8-63c4" type="profile"/>
         <infoLink id="0b42-7bab-c9fa-55d2" name="Harbingers of Dread" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
         <infoLink name="Dreaded Masters" id="2141-5981-4957-bd62" hidden="false" type="rule" targetId="36df-7a0b-e5b7-5f29"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="de39-13fa-1218-2a8c" name="Faction: Chaos Knights" hidden="false" targetId="bb67-f191-6562-acc7" primary="false"/>
-        <categoryLink id="7df1-6e0b-8afc-20a4" name="Vehicle" hidden="false" targetId="dbd4-63-af05-998" primary="false"/>
+        <categoryLink id="7df1-6e0b-8afc-20a4" name="Vehicle" hidden="false" targetId="dbd4-63-af05-998" primary="true"/>
         <categoryLink id="96e1-0018-ecf2-a9dd" name="Walker" hidden="false" targetId="6dda-e157-334d-e93a" primary="false"/>
-        <categoryLink id="f27b-3954-8e24-97c8" name="Battleline" hidden="false" targetId="e338-111e-d0c6-b687" primary="true"/>
         <categoryLink id="b9f3-d53d-9289-c19d" name="Chaos" hidden="false" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink id="80f4-05e3-83ed-248f" name="War Dog" hidden="false" targetId="99dc-0f47-85e2-75da" primary="false"/>
         <categoryLink id="a129-8249-a19a-67cf" name="Brigand" hidden="false" targetId="8364-7dd6-fadc-a5d2" primary="false"/>
@@ -726,24 +709,25 @@
           </constraints>
         </entryLink>
         <entryLink id="151e-e8b6-67f1-ec9f" name="Armoured feet" hidden="false" collective="false" import="true" targetId="6638-278a-5331-d1ff" type="selectionEntry"/>
+        <entryLink import="true" name="Character" hidden="false" id="0103-f9c0-97f0-413f" type="selectionEntry" targetId="960f-e2ce-a467-99d7"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="165"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="140"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
       <modifiers>
-        <modifier type="set" value="true" field="hidden">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="force" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
+        <modifier type="set-primary" value="e338-111e-d0c6-b687" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="6ba6-1e1b-1b23-6fe4" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="6" field="1995-c5fc-e109-31f1">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="6ba6-1e1b-1b23-6fe4" shared="true" includeChildSelections="true" includeChildForces="false"/>
+          </conditions>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
@@ -754,22 +738,22 @@
     </selectionEntry>
     <selectionEntry id="6e6d-7950-ce6d-4cd4" name="War Dog Huntsman" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="force" value="6" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f1a4-0645-a8de-81bd" type="max"/>
+        <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f1a4-0645-a8de-81bd" type="max"/>
       </constraints>
       <profiles>
         <profile id="540b-339c-30a4-fb9d" name="War Dog Huntsman" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">10</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">9</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">12</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">14</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
-            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">8</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">6</characteristic>
           </characteristics>
         </profile>
         <profile id="6e59-6cc9-5270-3482" name="Huntsman" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes an attack against a MONSTER or VEHICLE unit, re-roll a Wound roll of 1 and re-roll a Damage roll of 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes an attack that target a MONSTER or VEHICLE unit, you can re-roll the Wound roll.</characteristic>
           </characteristics>
         </profile>
         <profile id="ab12-2587-aec2-3a51" name="Invulnerable Save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -784,16 +768,14 @@
             <modifier type="append" field="name" value="D3"/>
           </modifiers>
         </infoLink>
-        <infoLink id="ab81-818e-ca5f-92a5" name="Damaged: 1-4 wounds remaining" hidden="false" targetId="97fd-09c5-60a8-63c4" type="profile"/>
-        <infoLink id="78a0-b80d-77ba-2b0a" name="Forged in Terror (Aura)" hidden="false" targetId="9717-2058-eae3-602e" type="profile"/>
+        <infoLink id="ab81-818e-ca5f-92a5" name="Damaged: 1-5 wounds remaining" hidden="false" targetId="97fd-09c5-60a8-63c4" type="profile"/>
         <infoLink id="6477-6d84-788a-83a9" name="Harbingers of Dread" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
         <infoLink name="Dreaded Masters" id="5283-ceda-8c1d-2891" hidden="false" type="rule" targetId="36df-7a0b-e5b7-5f29"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e4bb-f359-72e7-530e" name="Faction: Chaos Knights" hidden="false" targetId="bb67-f191-6562-acc7" primary="false"/>
-        <categoryLink id="0423-e74f-cb59-5472" name="Vehicle" hidden="false" targetId="dbd4-63-af05-998" primary="false"/>
+        <categoryLink id="0423-e74f-cb59-5472" name="Vehicle" hidden="false" targetId="dbd4-63-af05-998" primary="true"/>
         <categoryLink id="e391-f4d8-0acc-7f6e" name="Walker" hidden="false" targetId="6dda-e157-334d-e93a" primary="false"/>
-        <categoryLink id="248a-0f98-ca06-982b" name="Battleline" hidden="false" targetId="e338-111e-d0c6-b687" primary="true"/>
         <categoryLink id="880b-7c48-3878-9686" name="Chaos" hidden="false" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink id="f05e-6435-e235-905a" name="War Dog" hidden="false" targetId="99dc-0f47-85e2-75da" primary="false"/>
         <categoryLink id="aa12-7b52-9d70-7307" name="Huntsman" hidden="false" targetId="f8a3-f5fa-4e85-cc47" primary="false"/>
@@ -823,6 +805,7 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5e3-46e7-6c74-8141" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Character" hidden="false" id="24de-6e5e-dff2-29b6" type="selectionEntry" targetId="960f-e2ce-a467-99d7"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="140"/>
@@ -842,6 +825,16 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set-primary" value="e338-111e-d0c6-b687" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="6ba6-1e1b-1b23-6fe4" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="6" field="f1a4-0645-a8de-81bd">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="6ba6-1e1b-1b23-6fe4" shared="true" includeChildSelections="true" includeChildForces="false"/>
+          </conditions>
+        </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
             <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true"/>
@@ -857,9 +850,9 @@
         <profile id="0487-2918-c4e9-735f" name="Knight Despoiler" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">12</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">11</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">22</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">26</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">10</characteristic>
           </characteristics>
@@ -871,7 +864,7 @@
         </profile>
         <profile id="246f-e1c4-6335-20d1" name="Dread Dominion (Aura)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly WAR DOG is within 9&quot; of this model, each time that WAR DOG takes a Battle-shock test, add 1 to that test.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly War Dog model is within 9&quot; of this model, improve that WAR DOG model&apos;s Leadership and Objective Control characteristics by 1.</characteristic>
           </characteristics>
         </profile>
         <profile id="8d65-776a-67a4-e925" name="Seething Hatred" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -887,9 +880,8 @@
             <modifier type="append" field="name" value="D6"/>
           </modifiers>
         </infoLink>
-        <infoLink id="d2ff-d307-2481-1919" name="Forged in Terror (Aura)" hidden="false" targetId="9717-2058-eae3-602e" type="profile"/>
         <infoLink id="daaf-7ef7-c7cb-462b" name="Harbingers of Dread" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
-        <infoLink id="e4ea-9586-78bd-615b" name="Damaged: 1-7 wounds remaining" hidden="false" targetId="12ce-2a62-9fea-74bd" type="profile"/>
+        <infoLink id="e4ea-9586-78bd-615b" name="Damaged: 1-9 wounds remaining" hidden="false" targetId="12ce-2a62-9fea-74bd" type="profile"/>
         <infoLink name="Dreaded Masters" id="3080-8a7c-8f59-9ec7" hidden="false" type="rule" targetId="36df-7a0b-e5b7-5f29"/>
       </infoLinks>
       <categoryLinks>
@@ -1054,7 +1046,7 @@
         <entryLink id="bcb6-035f-779e-0685" name="Enhancements" hidden="false" collective="false" import="true" targetId="18da-1609-c0fb-cf69" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="400"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="335"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -1290,9 +1282,9 @@
         <profile id="160e-7198-c314-f89c" name="Knight Desecrator" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">12</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">11</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">22</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">26</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">10</characteristic>
           </characteristics>
@@ -1320,9 +1312,8 @@
             <modifier type="append" field="name" value="D6"/>
           </modifiers>
         </infoLink>
-        <infoLink id="ee0a-8e86-6022-e2e2" name="Forged in Terror (Aura)" hidden="false" targetId="9717-2058-eae3-602e" type="profile"/>
         <infoLink id="053e-d6d6-3ef0-be8e" name="Harbingers of Dread" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
-        <infoLink id="ed66-ef4e-c2-b782" name="Damaged: 1-7 wounds remaining" hidden="false" targetId="12ce-2a62-9fea-74bd" type="profile"/>
+        <infoLink id="ed66-ef4e-c2-b782" name="Damaged: 1-9 wounds remaining" hidden="false" targetId="12ce-2a62-9fea-74bd" type="profile"/>
         <infoLink name="Dreaded Masters" id="1fba-62e4-32a8-98b0" hidden="false" type="rule" targetId="36df-7a0b-e5b7-5f29"/>
       </infoLinks>
       <categoryLinks>
@@ -1402,7 +1393,7 @@
         <entryLink id="2d17-c6a6-2772-8994" name="Enhancements" hidden="false" collective="false" import="true" targetId="18da-1609-c0fb-cf69" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="400"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="335"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -1434,9 +1425,9 @@
         <profile id="bade-b185-e569-edc1" name="Knight Rampager" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">12</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">11</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">22</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">26</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">10</characteristic>
           </characteristics>
@@ -1453,7 +1444,7 @@
         </profile>
         <profile id="eb59-fb5e-62ca-e829" name="Bloodlust" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a Charge move, until the end of the turn, its melee weapons have the [SUSTAINED HITS 1] ability. In addition, once per battle, this model is eligible to declare a charge in a turn in which it Advanced.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a Charge move, until the end of the tum, its melee weapons have the (DEVASTATING WOUNDS) ability.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1465,9 +1456,8 @@
           </modifiers>
         </infoLink>
         <infoLink id="6ad4-77bf-0a46-8d85" name="Sustained Hits" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
-        <infoLink id="38b5-9529-e9a2-13de" name="Forged in Terror (Aura)" hidden="false" targetId="9717-2058-eae3-602e" type="profile"/>
         <infoLink id="13cb-a4f0-dc88-7b1f" name="Harbingers of Dread" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
-        <infoLink id="a17-18d3-8c51-c8b4" name="Damaged: 1-7 wounds remaining" hidden="false" targetId="12ce-2a62-9fea-74bd" type="profile"/>
+        <infoLink id="a17-18d3-8c51-c8b4" name="Damaged: 1-9 wounds remaining" hidden="false" targetId="12ce-2a62-9fea-74bd" type="profile"/>
         <infoLink name="Dreaded Masters" id="87cd-d7c3-ba34-88d2" hidden="false" type="rule" targetId="36df-7a0b-e5b7-5f29"/>
       </infoLinks>
       <categoryLinks>
@@ -1496,7 +1486,7 @@
                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">14</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-4</characteristic>
                 <characteristic name="D" typeId="3254-9fe6-d824-513e">6</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">SUSTAINED HITS 1</characteristic>
               </characteristics>
             </profile>
             <profile id="c9aa-1054-c816-8c79" name="➤ Reaper chainsword - sweep" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
@@ -1507,7 +1497,7 @@
                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">9</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
                 <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">SUSTAINED HITS 1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1529,7 +1519,7 @@
                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">20</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
                 <characteristic name="D" typeId="3254-9fe6-d824-513e">8</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">SUSTAINED HITS 1</characteristic>
               </characteristics>
             </profile>
             <profile id="5c72-6f33-e9c8-5d0f" name="➤ Warpstrike claw - sweep" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
@@ -1540,7 +1530,7 @@
                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">10</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
                 <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">SUSTAINED HITS 1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1560,7 +1550,11 @@
         <entryLink id="dfda-8ea5-fe54-a08d" name="Enhancements" hidden="false" collective="false" import="true" targetId="18da-1609-c0fb-cf69" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="380"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="335"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -1588,9 +1582,9 @@
         <profile id="b5fe-c12f-7cfd-152d" name="Knight Abominant" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">12</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">11</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">22</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">26</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">10</characteristic>
           </characteristics>
@@ -1602,7 +1596,7 @@
         </profile>
         <profile id="9552-ae5b-6be2-775d" name="Vortex Terrors (Psychic)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of your Shooting phase, select one enemy unit within 12&quot; of this model. That enemy unit must take a Battle-shock test.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of your Shooting phase, select one enemy unit within 24&quot; of and visible this model. That enemy unit must take a Battle-shock test.</characteristic>
           </characteristics>
         </profile>
         <profile id="cac0-b733-e4cf-d88e" name="Warp Storms (Psychic)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -1618,9 +1612,8 @@
             <modifier type="append" field="name" value="D6"/>
           </modifiers>
         </infoLink>
-        <infoLink id="e346-91e7-e153-111e" name="Forged in Terror (Aura)" hidden="false" targetId="9717-2058-eae3-602e" type="profile"/>
         <infoLink id="8b67-d967-873f-8919" name="Harbingers of Dread" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
-        <infoLink id="c9f9-667d-d596-a1d7" name="Damaged: 1-7 wounds remaining" hidden="false" targetId="12ce-2a62-9fea-74bd" type="profile"/>
+        <infoLink id="c9f9-667d-d596-a1d7" name="Damaged: 1-9 wounds remaining" hidden="false" targetId="12ce-2a62-9fea-74bd" type="profile"/>
         <infoLink name="Dreaded Masters" id="5d0b-1173-096e-6381" hidden="false" type="rule" targetId="36df-7a0b-e5b7-5f29"/>
       </infoLinks>
       <categoryLinks>
@@ -1645,7 +1638,7 @@
             <profile id="19b7-9d13-3590-27dc" name="Volkite combustor" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
               <characteristics>
                 <characteristic name="Range" typeId="9896-9419-16a1-92fc">30&quot;</characteristic>
-                <characteristic name="A" typeId="3bb-c35f-f54-fb08">9</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">12</characteristic>
                 <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
                 <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
                 <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
@@ -1723,7 +1716,7 @@
         <entryLink id="5568-df88-d09e-d873" name="Enhancements" hidden="false" collective="false" import="true" targetId="18da-1609-c0fb-cf69" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="365"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="325"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -1760,9 +1753,9 @@
         <profile id="868c-dc0a-4bc2-55ad" name="Knight Tyrant" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">13</characteristic>
-            <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">24</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">12</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">28</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">10</characteristic>
           </characteristics>
@@ -1790,9 +1783,8 @@
             <modifier type="append" field="name" value="D6+2"/>
           </modifiers>
         </infoLink>
-        <infoLink id="1fc4-e42d-700d-56e8" name="Forged in Terror (Aura)" hidden="false" targetId="9717-2058-eae3-602e" type="profile"/>
         <infoLink id="3e23-1899-b1ea-0d4f" name="Harbingers of Dread" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
-        <infoLink id="bd9f-efd3-8aee-df65" name="Damaged: 1-8 wounds remaining" hidden="false" targetId="668-138f-bf96-9619" type="profile"/>
+        <infoLink id="bd9f-efd3-8aee-df65" name="Damaged: 1-10 wounds remaining" hidden="false" targetId="7400-7387-dae-781f" type="profile"/>
         <infoLink name="Dreaded Masters" id="c31e-30eb-c1d7-ba10" hidden="false" type="rule" targetId="36df-7a0b-e5b7-5f29"/>
       </infoLinks>
       <categoryLinks>
@@ -1881,7 +1873,7 @@
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+3</characteristic>
                     <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
                     <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
                   </characteristics>
@@ -1892,7 +1884,7 @@
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+3</characteristic>
                     <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
                     <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Hazardous</characteristic>
                   </characteristics>
@@ -1921,20 +1913,20 @@
                 </profile>
                 <profile id="2ebf-53ac-3034-47a1" name="Warpshock harpoon" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                   <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">24</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-6</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">12</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-MONSTER 4+, Anti-VEHICLE 4+, Devastating Wounds</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast,Devastating Wounds</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
                 <infoLink id="fa47-5b45-c66c-020d" name="Torrent" hidden="false" targetId="5edf-d619-23e0-9b56" type="rule"/>
                 <infoLink id="21ae-587f-331e-dc4b" name="Ignores Cover" hidden="false" targetId="4640-43e7-30b-215a" type="rule"/>
-                <infoLink id="ef3a-7513-6c4c-1182" name="Anti-" hidden="false" targetId="4111-82e3-9444-e942" type="rule"/>
+                <infoLink id="ef3a-7513-6c4c-1182" name="Blast" hidden="false" targetId="6c1f-1cf7-ff25-c99e" type="rule"/>
                 <infoLink id="c793-f138-db75-5bed" name="Devastating Wounds" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
               </infoLinks>
               <costs>
@@ -1995,7 +1987,7 @@
         <entryLink id="6ea7-07d2-808c-044a" name="Enhancements" hidden="false" collective="false" import="true" targetId="18da-1609-c0fb-cf69" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="480"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="395"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -2096,18 +2088,109 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c582-1a3f-6783-fcb8" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="603e-6bcd-927f-cb70" name="Traitoris Lance" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="603e-6bcd-927f-cb70" name="Infernal Lance" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
               </costs>
               <infoLinks>
-                <infoLink name="Forged in Terror (Aura)" id="4ead-25fd-7f6c-baaf" hidden="false" type="profile" targetId="9717-2058-eae3-602e"/>
+                <infoLink name="Malefic Surge" id="61a6-71e8-20e5-22fd" hidden="false" type="rule" targetId="0d8b-9f8a-c498-5892">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="603e-6bcd-927f-cb70" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                            <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="603e-6bcd-927f-cb70" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
               </infoLinks>
+              <categoryLinks>
+                <categoryLink targetId="4ac9-fd30-1e3d-b249" id="df7a-8dcd-5047-5c97" primary="true" name="Configuration"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Iconoclast Fiefdom" hidden="false" id="7fe8-de91-8976-e705">
               <infoLinks>
                 <infoLink name="Dreaded Masters" id="0ad2-fa15-d9a1-8960" hidden="false" type="rule" targetId="36df-7a0b-e5b7-5f29"/>
               </infoLinks>
+              <categoryLinks>
+                <categoryLink targetId="4ac9-fd30-1e3d-b249" id="1c5a-cef3-9eaa-8c11" primary="true" name="Configuration"/>
+              </categoryLinks>
+            </selectionEntry>
+            <selectionEntry id="c43a-0fb3-6379-f037" name="Traitoris Lance (New)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Paragons of Terror" id="ab8d-c26f-5584-8139" hidden="false" type="rule" targetId="e321-94fe-af20-65de">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="c43a-0fb3-6379-f037" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                            <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="c43a-0fb3-6379-f037" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink targetId="4ac9-fd30-1e3d-b249" id="3bde-7a98-5614-c20d" primary="true" name="Configuration"/>
+              </categoryLinks>
+            </selectionEntry>
+            <selectionEntry id="8d40-fab5-7d17-33cb" name="Lords of Dread" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Tyrannical Court" id="4763-2c7a-fb8c-27dd" hidden="false" type="rule" targetId="e0af-2af0-61ae-56e4">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="8d40-fab5-7d17-33cb" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                            <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="8d40-fab5-7d17-33cb" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink targetId="4ac9-fd30-1e3d-b249" id="43ea-a034-c30c-fa9f" primary="true" name="Configuration"/>
+              </categoryLinks>
+            </selectionEntry>
+            <selectionEntry id="6ba6-1e1b-1b23-6fe4" name="Houndpack Lance" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Marked Prey" id="cdd9-9a48-308e-9dce" hidden="false" type="rule" targetId="3ac9-c005-92ab-e8d6">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="6ba6-1e1b-1b23-6fe4" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                            <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="6ba6-1e1b-1b23-6fe4" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink targetId="4ac9-fd30-1e3d-b249" id="f767-a5c3-979e-c74c" primary="true" name="Configuration"/>
+              </categoryLinks>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -2148,7 +2231,6 @@
             <modifier type="append" field="name" value="2D6"/>
           </modifiers>
         </infoLink>
-        <infoLink id="b70c-1bec-be44-d200" name="Forged in Terror (Aura)" hidden="false" targetId="9717-2058-eae3-602e" type="profile"/>
         <infoLink id="2b3-6e05-b3a3-4b04" name="Harbingers of Dread" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
         <infoLink id="7536-4ece-da3f-ff96" name="Super-Heavy Walker" hidden="false" targetId="5e13-1624-d280-418d" type="rule"/>
         <infoLink id="9538-9dad-5e30-2c0" name="Damaged: 1-10 wounds remaining" hidden="false" targetId="7400-7387-dae-781f" type="profile"/>
@@ -2329,7 +2411,6 @@
             <modifier type="append" field="name" value="2D6"/>
           </modifiers>
         </infoLink>
-        <infoLink id="f498-59b2-69c-3679" name="Forged in Terror (Aura)" hidden="false" targetId="9717-2058-eae3-602e" type="profile"/>
         <infoLink id="93eb-c5b0-872e-cc77" name="Harbingers of Dread" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
         <infoLink id="a226-6784-bacd-ed18" name="Super-Heavy Walker" hidden="false" targetId="5e13-1624-d280-418d" type="rule"/>
         <infoLink name="Dreaded Masters" id="cb05-d0d9-f524-bb83" hidden="false" type="rule" targetId="36df-7a0b-e5b7-5f29"/>
@@ -2505,9 +2586,9 @@
         <profile id="2916-a86d-a98f-b9fb" name="Chaos Cerastus Knight Lancer" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">14&quot;</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">12</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">11</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">25</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">28</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">10</characteristic>
           </characteristics>
@@ -2535,7 +2616,6 @@
             <modifier type="append" field="name" value="D6+2"/>
           </modifiers>
         </infoLink>
-        <infoLink id="456c-8e2e-7893-49e8" name="Forged in Terror (Aura)" hidden="false" targetId="9717-2058-eae3-602e" type="profile"/>
         <infoLink id="778c-9b9-8529-c419" name="Harbingers of Dread" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
         <infoLink id="dc7b-e107-b327-4001" name="Super-Heavy Walker" hidden="false" targetId="5e13-1624-d280-418d" type="rule"/>
         <infoLink name="Dreaded Masters" id="5598-cb70-e3d6-4b0d" hidden="false" type="rule" targetId="36df-7a0b-e5b7-5f29"/>
@@ -2607,7 +2687,11 @@
         <entryLink id="6d86-e945-7080-e219" name="Warlord" hidden="false" collective="false" import="true" targetId="3bee-8c85-68f7-e54b" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="420"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="355"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -2635,9 +2719,9 @@
         <profile id="c85c-2c10-9dab-f10f" name="Chaos Cerastus Knight Castigator" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">12</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">11</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">25</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">28</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">10</characteristic>
           </characteristics>
@@ -2664,7 +2748,6 @@
             <modifier type="append" field="name" value="D6+2"/>
           </modifiers>
         </infoLink>
-        <infoLink id="d9de-9da5-5af-2833" name="Forged in Terror (Aura)" hidden="false" targetId="9717-2058-eae3-602e" type="profile"/>
         <infoLink id="a1c9-29ef-8029-36e9" name="Harbingers of Dread" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
         <infoLink id="a4a4-248c-a0c1-87d3" name="Super-Heavy Walker" hidden="false" targetId="5e13-1624-d280-418d" type="rule"/>
         <infoLink id="500-6af5-592-7e7" name="Damaged: 1-8 wounds remaining" hidden="false" targetId="668-138f-bf96-9619" type="profile"/>
@@ -2750,7 +2833,11 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="445"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="355"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -2778,9 +2865,9 @@
         <profile id="5403-3f13-3ca6-22b6" name="Chaos Cerastus Knight Acheron" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">12</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">11</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">25</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">28</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">10</characteristic>
           </characteristics>
@@ -2808,7 +2895,6 @@
           </modifiers>
         </infoLink>
         <infoLink id="a836-d284-5da1-45f2" name="Damaged: 1-8 wounds remaining" hidden="false" targetId="668-138f-bf96-9619" type="profile"/>
-        <infoLink id="1d35-dc87-c8a8-752e" name="Forged in Terror (Aura)" hidden="false" targetId="9717-2058-eae3-602e" type="profile"/>
         <infoLink id="cc30-31f9-d62d-48b7" name="Harbingers of Dread" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
         <infoLink id="a431-ff8-a3f-a1a5" name="Super-Heavy Walker" hidden="false" targetId="5e13-1624-d280-418d" type="rule"/>
         <infoLink name="Dreaded Masters" id="9201-64d7-cbb6-cfa6" hidden="false" type="rule" targetId="36df-7a0b-e5b7-5f29"/>
@@ -2915,7 +3001,11 @@
         <entryLink id="12be-1b78-dc24-7226" name="Warlord" hidden="false" collective="false" import="true" targetId="3bee-8c85-68f7-e54b" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="420"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="355"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -2948,9 +3038,9 @@
         <profile id="76f5-bb5c-ae0e-950e" name="Chaos Cerastus Knight Atrapos" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">12</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">11</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">25</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">28</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">10</characteristic>
           </characteristics>
@@ -2973,7 +3063,6 @@
             <modifier type="append" field="name" value="D6+2"/>
           </modifiers>
         </infoLink>
-        <infoLink id="3181-e9c6-2387-f471" name="Forged in Terror (Aura)" hidden="false" targetId="9717-2058-eae3-602e" type="profile"/>
         <infoLink id="881f-e74a-194a-d75d" name="Harbingers of Dread" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
         <infoLink id="8fb2-c7cc-fd8-f9ea" name="Super-Heavy Walker" hidden="false" targetId="5e13-1624-d280-418d" type="rule"/>
         <infoLink name="Dreaded Masters" id="2049-df4b-5ed9-8b0a" hidden="false" type="rule" targetId="36df-7a0b-e5b7-5f29"/>
@@ -3096,7 +3185,11 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="420"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="355"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -3129,9 +3222,9 @@
         <profile id="a69c-d32c-a409-86bd" name="Chaos Questoris Knight Magaera" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">12</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">11</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">22</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">26</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">10</characteristic>
           </characteristics>
@@ -3143,13 +3236,12 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="6434-33e1-93a1-8fd8" name="Damaged: 1-7 wounds remaining" hidden="false" targetId="12ce-2a62-9fea-74bd" type="profile"/>
+        <infoLink id="6434-33e1-93a1-8fd8" name="Damaged: 1-9 wounds remaining" hidden="false" targetId="12ce-2a62-9fea-74bd" type="profile"/>
         <infoLink id="93d9-a91d-9135-c859" name="Deadly Demise" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="D6"/>
           </modifiers>
         </infoLink>
-        <infoLink id="cdef-5cd3-a6cc-fb49" name="Forged in Terror (Aura)" hidden="false" targetId="9717-2058-eae3-602e" type="profile"/>
         <infoLink id="e0f7-8e3e-7a32-51af" name="Harbingers of Dread" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
         <infoLink id="c204-d4e2-a47e-ed16" name="Super-Heavy Walker" hidden="false" targetId="5e13-1624-d280-418d" type="rule"/>
         <infoLink id="e70d-97f1-3540-3e87" name="Huntmaster (Aura)" hidden="false" targetId="73ac-6b3a-8480-d08a" type="profile"/>
@@ -3281,7 +3373,11 @@
         <entryLink id="6f91-415a-2532-103f" name="Warlord" hidden="false" collective="false" import="true" targetId="3bee-8c85-68f7-e54b" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="435"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="345"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -3313,31 +3409,34 @@
         </profile>
         <profile id="2f08-fd49-520d-c001" name="Grav-pinned" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this model has shot, if an enemy INFANTRY unit was hit by one or more of those attacks made with a graviton crusher, until the end of your opponent’s next turn, that enemy unit is grav-pinned. While a unit is grav-pinned, subtract 2 from that unit’s Move characteristic and subtract 2 from Advance and Charge rolls made for that unit.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this model has shot, if an enemy Infantry unit was hit by one or more of those attacks made with a graviton crusher, until the end of your opponent’s next turn, that enemy unit is grav-pinned. While a unit is grav-pinned, subtract 2 from that unit’s Move characteristic and subtract 2 from Charge rolls made for that unit.</characteristic>
           </characteristics>
         </profile>
         <profile name="Chaos Questoris Knight Styrix" hidden="false" id="fe0a-7433-490d-b27" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">12</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">11</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">22</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">26</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">10</characteristic>
           </characteristics>
         </profile>
+        <profile id="8f48-6fc9-a9e3-7265" name="Preysight (Aura)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly War Dog model is within 6&quot; of this model, ranged weapons equipped by that War Dog model have the [IGNORES COVER] ability.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="9fb-5f3d-ddb5-2723" name="Damaged: 1-7 wounds remaining" hidden="false" targetId="12ce-2a62-9fea-74bd" type="profile"/>
+        <infoLink id="9fb-5f3d-ddb5-2723" name="Damaged: 1-9 wounds remaining" hidden="false" targetId="12ce-2a62-9fea-74bd" type="profile"/>
         <infoLink id="94ba-eb84-8519-6b15" name="Deadly Demise" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="D6"/>
           </modifiers>
         </infoLink>
-        <infoLink id="f4b4-cbb5-aab-8ea7" name="Forged in Terror (Aura)" hidden="false" targetId="9717-2058-eae3-602e" type="profile"/>
         <infoLink id="82f0-908f-8f58-a62e" name="Harbingers of Dread" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
         <infoLink id="5b52-a7e7-e494-ce42" name="Super-Heavy Walker" hidden="false" targetId="5e13-1624-d280-418d" type="rule"/>
-        <infoLink id="94fb-17fc-632c-965" name="Huntmaster (Aura)" hidden="false" targetId="73ac-6b3a-8480-d08a" type="profile"/>
         <infoLink name="Dreaded Masters" id="b31f-ccde-54f7-cf53" hidden="false" type="rule" targetId="36df-7a0b-e5b7-5f29"/>
       </infoLinks>
       <categoryLinks>
@@ -3468,7 +3567,11 @@
         <entryLink id="df6c-95aa-c1b3-f41a" name="Warlord" hidden="false" collective="false" import="true" targetId="3bee-8c85-68f7-e54b" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="430"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="345"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -3490,7 +3593,7 @@
     </selectionEntry>
     <selectionEntry id="ae7c-3679-a88-6895" name="War Dog Moirax" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="force" value="6" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1df3-61b3-1a11-0900" type="max"/>
+        <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1df3-61b3-1a11-0900" type="max"/>
       </constraints>
       <profiles>
         <profile id="9155-86e3-7298-9c35" name="Invulnerable Save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -3501,11 +3604,11 @@
         <profile id="edf-bf86-2acc-2b21" name="War Dog Moirax" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">10</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">9</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">12</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">14</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
-            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">8</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">6</characteristic>
           </characteristics>
         </profile>
         <profile id="5f6b-e13c-2fb2-fdf7" name="Protection Protocols" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -3516,13 +3619,12 @@ this phase.</characteristic>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="409e-76fe-4b03-783d" name="Damaged: 1-4 wounds remaining" hidden="false" targetId="97fd-09c5-60a8-63c4" type="profile"/>
+        <infoLink id="409e-76fe-4b03-783d" name="Damaged: 1-5 wounds remaining" hidden="false" targetId="97fd-09c5-60a8-63c4" type="profile"/>
         <infoLink id="d7d4-a4a3-e070-a620" name="Deadly Demise" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="D3"/>
           </modifiers>
         </infoLink>
-        <infoLink id="367-dd97-8f07-852a" name="Forged in Terror (Aura)" hidden="false" targetId="9717-2058-eae3-602e" type="profile"/>
         <infoLink id="a2d6-de7b-4726-c5b1" name="Harbingers of Dread" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
         <infoLink name="Dreaded Masters" id="f7f1-ad4c-5057-432e" hidden="false" type="rule" targetId="36df-7a0b-e5b7-5f29"/>
       </infoLinks>
@@ -3530,10 +3632,10 @@ this phase.</characteristic>
         <categoryLink id="4f5a-5d74-4b13-323a" name="Faction: Chaos Knights" hidden="false" targetId="bb67-f191-6562-acc7" primary="false"/>
         <categoryLink id="648d-5e62-3f73-a541" name="Vehicle" hidden="false" targetId="dbd4-63-af05-998" primary="false"/>
         <categoryLink id="3a45-b388-5145-4408" name="Walker" hidden="false" targetId="6dda-e157-334d-e93a" primary="false"/>
-        <categoryLink id="fc31-d2f9-634d-1923" name="Battleline" hidden="false" targetId="e338-111e-d0c6-b687" primary="true"/>
         <categoryLink id="72c8-b011-37de-bdd3" name="Chaos" hidden="false" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink id="9189-990d-17a7-6b60" name="War Dog" hidden="false" targetId="99dc-0f47-85e2-75da" primary="false"/>
         <categoryLink id="a51f-4e25-618c-444" name="Moirax" hidden="false" targetId="47a1-f548-3346-b0df" primary="false"/>
+        <categoryLink targetId="e338-111e-d0c6-b687" id="1356-dd19-7769-cd5e" primary="true" name="Battleline"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="f9a1-251a-ee9f-707f" name="Weapons" hidden="false" collective="false" import="true">
@@ -3696,7 +3798,11 @@ this phase.</characteristic>
         <entryLink id="a67b-c001-46f-8ae3" name="Armoured feet" hidden="false" collective="false" import="true" targetId="6638-278a-5331-d1ff" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="160"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="150"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -3726,27 +3832,267 @@ this phase.</characteristic>
         <modifier type="set" value="Chaos Knights are visible" field="name"/>
       </modifiers>
     </selectionEntry>
+    <selectionEntry id="b370-057b-e544-2bef" name="Reaper chaintalon" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="08b7-e344-0a57-4a30" name="Reaper chaintalon " hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+          <characteristics>
+            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">12</characteristic>
+            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+            <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
+            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+            <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">SUSTAINED HITS 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+      </costs>
+      <comment>Karnivore</comment>
+    </selectionEntry>
+    <selectionEntry id="3b8c-e376-02fc-879a" name="Slaughterclaw" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="5a49-53cf-7513-e5da" name="Slaughterclaw" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+          <characteristics>
+            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
+            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+            <characteristic name="S" typeId="ab33-d393-96ce-ccba">12</characteristic>
+            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
+            <characteristic name="D" typeId="3254-9fe6-d824-513e">D6+2</characteristic>
+            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">SUSTAINED HITS 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+      </costs>
+      <comment>Karnivore</comment>
+    </selectionEntry>
+    <selectionEntry id="16b1-85ec-89ed-1f7b" name="Knight Ruinator" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1ad4-b40b-50cc-ec2d" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="ce4e-d62d-7e1f-934a" name="Knight Ruinator" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">11</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">26</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="55ed-b0c1-21d7-00dc" name="Invulnerable Save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save against ranged attacks.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0ecc-1fdb-b53b-9cf7" name="Methodical Destruction" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the first battle round, select one unit from your opponent&apos;s army to be this model&apos;s victim. Each time this model makes an attack that targets its victim, you can re-roll the Wound roll. Each time this model&apos;s victim is destroyed, select one new enemy unit to be this modeľ&apos;s victim.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b1e1-9ea6-51a7-cf03" name="Close-range Killers (Aura)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly WAR DOG model is within 9&quot; of this model, each time that WAR DOG model makes an attack that targets the closest eligible target, improve the Armour Penetration characteristic of that attack by 1.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="32a5-1523-822d-8ec7" name="Super-Heavy Walker" hidden="false" targetId="5e13-1624-d280-418d" type="rule"/>
+        <infoLink id="b368-74f6-adda-b113" name="Deadly Demise" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="D6"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="136a-d2c5-3787-b6fc" name="Harbingers of Dread" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
+        <infoLink id="65f5-d7b1-040d-3d41" name="Damaged: 1-9 wounds remaining" hidden="false" targetId="12ce-2a62-9fea-74bd" type="profile"/>
+        <infoLink name="Dreaded Masters" id="d69c-60b0-b63a-ffc0" hidden="false" type="rule" targetId="36df-7a0b-e5b7-5f29"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4e04-59d1-43f6-6481" name="Faction: Chaos Knights" hidden="false" targetId="bb67-f191-6562-acc7" primary="false"/>
+        <categoryLink id="4d33-1275-3a32-3ab0" name="Vehicle" hidden="false" targetId="dbd4-63-af05-998" primary="false"/>
+        <categoryLink id="9aaf-4ed4-8ebc-cd2b" name="Walker" hidden="false" targetId="6dda-e157-334d-e93a" primary="false"/>
+        <categoryLink id="7d83-5a6e-9fb2-bcf6" name="Titanic" hidden="false" targetId="5929-ad51-d006-e008" primary="false"/>
+        <categoryLink id="f8f5-61df-d418-1ccd" name="Towering" hidden="false" targetId="d666-e2c9-b6cc-5716" primary="false"/>
+        <categoryLink id="3b40-4148-2d9c-266d" name="Abhorrent" hidden="false" targetId="f2d9-b5e8-4183-cb0b" primary="false"/>
+        <categoryLink id="11df-2085-dae4-3851" name="Character" hidden="false" targetId="9cfd-1c32-585f-7d5c" primary="true"/>
+        <categoryLink id="2f79-a07a-44ae-cc14" name="Chaos" hidden="false" targetId="4c00-2578-faf5-6918" primary="false"/>
+        <categoryLink id="753b-27c4-af26-e426" name="Knight Abominant" hidden="false" targetId="9d18-ceff-963a-cc29" primary="false"/>
+        <categoryLink id="f420-495d-2897-cbd2" name="Psyker" hidden="false" targetId="13bf-2bee-3ae0-b414" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="fe26-bef0-969e-07d4" name="Warlord" hidden="false" collective="false" import="true" targetId="3bee-8c85-68f7-e54b" type="selectionEntry"/>
+        <entryLink id="c399-ce93-d494-ca0c" name="Enhancements" hidden="false" collective="false" import="true" targetId="18da-1609-c0fb-cf69" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Fellbore" hidden="false" id="af45-ffa9-2548-5e40" collective="false" targetId="e93b-bfc1-82f7-11a1" type="selectionEntry" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="33f8-46a1-635c-3049" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="07e5-3006-5e15-0a01" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="350"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
+          <conditions>
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
+          <conditions>
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Darkflame lance and Terrorpulse missiles" hidden="false" id="fd4b-4f6f-bf11-ac42" collective="false" sortIndex="1">
+          <profiles>
+            <profile name="Darkflame lance " typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="e42e-b439-7641-6a94">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">2D6</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">N/A</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">IGNORES COVER,TORRENT</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Terrorpulse missiles" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="b6bc-52fd-d8cf-e79f">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">2D6</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Ignores Cover" id="b1bb-103a-714e-b3d2" hidden="false" targetId="4640-43e7-30b-215a" type="rule"/>
+            <infoLink name="Torrent" id="38e6-d2de-7ccf-467e" hidden="false" targetId="5edf-d619-23e0-9b56" type="rule"/>
+            <infoLink name="Blast" id="2074-833d-cd57-29fc" hidden="false" targetId="6c1f-1cf7-ff25-c99e" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3f24-d952-8155-c94a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="955b-dfa7-c605-ba45" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry id="e93b-bfc1-82f7-11a1" name="Fellbore" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="9aaf-4d70-4416-cf21" name="➤ Fellbore - strike" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+          <characteristics>
+            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+            <characteristic name="S" typeId="ab33-d393-96ce-ccba">14</characteristic>
+            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
+            <characteristic name="D" typeId="3254-9fe6-d824-513e">6</characteristic>
+            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">ANTI-MONSTER 2+,ANTI-VEHICLE 2+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f5c8-3d81-6339-a430" name="➤ Fellbore - sweep" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+          <characteristics>
+            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">12</characteristic>
+            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+            <characteristic name="S" typeId="ab33-d393-96ce-ccba">9</characteristic>
+            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+            <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Anti-" id="fad7-dd39-3f67-20e7" hidden="false" targetId="4111-82e3-9444-e942" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Character" hidden="false" id="960f-e2ce-a467-99d7">
+      <categoryLinks>
+        <categoryLink name="Character" hidden="false" id="3cac-c48d-dc09-c3b2" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7dfd-efbb-120b-53a0" includeChildSelections="false" includeChildForces="false"/>
+        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="788c-8b41-ba20-d2c3" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="force" childId="6ba6-1e1b-1b23-6fe4" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Warlord" hidden="false" id="36b0-46fd-dac9-8824" collective="false" targetId="3bee-8c85-68f7-e54b" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="9cfd-1c32-585f-7d5c" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Enhancements" hidden="false" id="d3af-910e-1aa8-15d3" type="selectionEntryGroup" targetId="18da-1609-c0fb-cf69">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="9cfd-1c32-585f-7d5c" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="18da-1609-c0fb-cf69" name="Enhancements" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ac3-0c48-a1f5-8b56" type="max"/>
-        <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="852b-8a29-1fc7-ebc9" type="max"/>
+        <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="852b-8a29-1fc7-ebc9" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="ffa9-e86a-6f79-c949" name="Lord of Dread" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ffa9-e86a-6f79-c949" name="VEIL OF MEDRENGARD" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c311-f705-e821-9436" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ea44-505d-1519-fd1d" name="Lord of Dread" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+            <profile id="ea44-505d-1519-fd1d" name="VEIL OF MEDRENGARD" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">CHAOS KNIGHTS model only. At the start of the Fight phase, you can select one enemy unit within Engagement Range of the bearer; that enemy unit must take a Battle-shock test.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">CHAOS KNIGHTS model only. The bearer has a 4+ invulnerable save against ranged attacks, and a 5+ invulnerable save against melee attacks.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="35"/>
             <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
             <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
             <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -3755,7 +4101,7 @@ this phase.</characteristic>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="equalTo" value="0" field="selections" scope="roster" childId="603e-6bcd-927f-cb70" shared="true" includeChildSelections="true"/>
+                <condition type="equalTo" value="0" field="selections" scope="roster" childId="c43a-0fb3-6379-f037" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -3786,14 +4132,14 @@ this phase.</characteristic>
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry id="d1ba-fbad-1b6b-3567" name="The Traitor&apos;s Mark" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d1ba-fbad-1b6b-3567" name="MALEVOLENT HERALDRY" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9c66-9cbb-8593-f321" type="max"/>
           </constraints>
           <profiles>
-            <profile id="be11-dfc5-c59f-16d1" name="The Traitor&apos;s Mark" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+            <profile id="be11-dfc5-c59f-16d1" name="MALEVOLENT HERALDRY" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">CHAOS KNIGHTS model only. In your Movement phase, select one enemy unit within 12&quot; of the bearer. That enemy unit must take a Battle‑shock test.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">CHAOS KNIGHTS model only. Each time you roll dice to randomly select which Dread abilities are active for your army, if the bearer is on the battlefield, you can re-roll one or both results rolled.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3803,51 +4149,60 @@ this phase.</characteristic>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="equalTo" value="0" field="selections" scope="roster" childId="603e-6bcd-927f-cb70" shared="true" includeChildSelections="true"/>
+                <condition type="equalTo" value="0" field="selections" scope="roster" childId="c43a-0fb3-6379-f037" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry id="6e61-530c-d0b5-486c" name="Panoply of the Cursed Knights" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="6e61-530c-d0b5-486c" name="TYRANT&apos;S SHADOW" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8113-eafd-c2f5-c4b7" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b263-32e3-5af5-2643" name="Panoply of the Cursed Knights" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+            <profile id="b263-32e3-5af5-2643" name="TYRANT&apos;S SHADOW" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">CHAOS KNIGHTS model only. Each time an attack is made against the bearer, subtract 1 from the Armour Penetration  characteristic of that attack.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="40"/>
-          </costs>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="equalTo" value="0" field="selections" scope="roster" childId="603e-6bcd-927f-cb70" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Aura of Terror" hidden="false" id="c186-769a-41a4-21d7" collective="false">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="9ac3-41cd-b72e-2133" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-          </constraints>
-          <profiles>
-            <profile name="Aura of Terror" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="23e6-4a34-e2f6-b081">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">CHAOS KNIGHTS model only. If you control an objective marker at the end of your Command phase, and the bearer is within range of that objective marker, that objective marker is said to be Tainted and remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase. In addition, while an objective marker is Tainted and under your control, that objective marker has the Despair Dread ability as if it was a CHAOS KNIGHTS model from your army (so subtract 1 from Battle-shock and Leadership tests taken for enemy units within 12&quot; of it).</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">CHAOS KNIGHTS model only. At the end of your Command phase, select one objective marker the bearer is within range of and that you control. That objective marker remains under your control until your opponent&apos;s Level of Control over that objective marker is greater than yours at the end of a phase. In addition, until you lose control of that objective
+marker, it has the Deathly Terror ability as if it were a CHAOS KNIGHTS model from your army.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
             <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
           </costs>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="equalTo" value="0" field="selections" scope="roster" childId="603e-6bcd-927f-cb70" shared="true" includeChildSelections="true"/>
+                <condition type="equalTo" value="0" field="selections" scope="roster" childId="c43a-0fb3-6379-f037" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="NIGHTMARE&apos;S MASTER" hidden="false" id="c186-769a-41a4-21d7" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="9ac3-41cd-b72e-2133" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="NIGHTMARE&apos;S MASTER" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="23e6-4a34-e2f6-b081">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">CHAOS KNIGHTS model only. At the start of the Fight phase, each enemy unit within Engagement Range of the bearer must take a Battle-shock test.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="roster" childId="c43a-0fb3-6379-f037" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -3930,20 +4285,400 @@ this phase.</characteristic>
             </modifier>
           </modifiers>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="KNIGHT DIABOLUS" hidden="false" id="f89c-c16f-c3fc-c19c" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="212d-29d9-ddbd-6455" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="KNIGHT DIABOLUS" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="076d-3e7e-37d8-5cb0">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">CHAOS KNIGHTS model only. Improve the Weapon Skill characteristic of the bearer&apos;s melee weapons by 1. While the bearer is using the Diabolic Power ability, its melee weapons have the [LANCE] ability.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="roster" childId="603e-6bcd-927f-cb70" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="BLASPHEMOUS ENGINE" hidden="false" id="e6a2-8a15-a34c-eeb8" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="3366-aab6-841d-492d" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="BLASPHEMOUS ENGINE" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="db1e-b96d-8424-c042">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">CHAOS KNIGHTS model only. Add 2 to the bearer&apos;s Wounds characteristic. Each time the bearer&apos;s unit makes a Malefic Surge, you can re-roll the Leadership test taken to see if it suffers any mortal wounds.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="35"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="roster" childId="603e-6bcd-927f-cb70" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="FLESHMETAL FUSION" hidden="false" id="1139-7b1c-a769-c350" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="055f-9ef9-ed28-6caf" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="FLESHMETAL FUSION" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7ec1-f924-cf34-f82c">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">CHAOS KNIGHTS model only. Add 1 to the bearer&apos;s Toughness characteristic. While the bearer is using the Unnatural Fortitude ability, each time an attack with a Damage characteristic of 1 is allocated to the bearer, add 1 to any armour saving throw made against that attack.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="35"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="roster" childId="603e-6bcd-927f-cb70" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="BESTIAL ASPECT" hidden="false" id="0945-3333-54dc-0cde" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="8c4b-46e3-1fc4-cce3" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="BESTIAL ASPECT" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1ece-e9e5-5163-1cab">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">CHAOS KNIGHTS model only. The bearer&apos;s ranged weapons have the [ASSAULT] ability. While the bearer is using the Unholy Hunger ability, it can ignore any or all modifiers to its Move characteristic and/or to Advance rolls made for its unit.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="roster" childId="603e-6bcd-927f-cb70" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="THRONE MECHANICUM OF SKULLS" hidden="false" id="2c8f-bbea-8487-9986" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="81a8-9d1c-83f1-0d00" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="THRONE MECHANICUM OF SKULLS" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bbc7-a1df-c29f-0e05">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">CHAOS KNIGHTS model only, You can re-roll Charge rolls made for the bearer&apos;s unit. In addition, once per battle, in your Charge phase, the bearer can use this Enhancement. If it does, until the end of the phase, the bearer&apos;s unit is eligible to declare a charge in a turn in which it Advanced.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="roster" childId="8d40-fab5-7d17-33cb" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="BLADE OF CELERITY" hidden="false" id="02c6-21f8-308a-7c18" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="b7da-30d0-3356-baf7" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="BLADE OF CELERITY" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5145-df2f-a2fd-5ab2">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">CHAOS KNIGHTS model only. The bearer&apos;s ranged weapons have the [ASSAULT] ability. In addition, once per battle, in the Fight phase, the bearer can use this Enhancement. If it does, until the end of the phase, models in the bearer&apos;s unit have the Fights First ability.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="35"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="roster" childId="8d40-fab5-7d17-33cb" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="WARP-BORNE STALKER" hidden="false" id="8546-e5ca-9410-da4f" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="fe04-793d-4059-0dd5" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="WARP-BORNE STALKER" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bdd9-83eb-0ff7-5be0">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">CHAOS KNIGHTS model only. The bearer has the Deep Strike ability. In addition, once per battle, at the end of your opponent&apos;s turn. if the bearer is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="10"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="roster" childId="8d40-fab5-7d17-33cb" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="PUTRID CARAPACE" hidden="false" id="f171-a816-d09d-1e34" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="1cb3-f364-c5de-c8d1" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="PUTRID CARAPACE" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ea9c-a89a-ed31-0c26">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">CHAOS KNIGHTS model only. The bearer has a Save characteristic of 2+. In addition, once per battle, at the start of either player&apos;s Command phase, the bearer can use this Enhancement. If it does, the bearer regains up to D6 lost wounds.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="30"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="roster" childId="8d40-fab5-7d17-33cb" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="MIRROR OF FATES" hidden="false" id="eb44-8cc3-7115-7dd4" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="3f82-e9b8-549c-0264" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="MIRROR OF FATES" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3790-e260-bf37-4238">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">CHAOS KNIGHTS model only. Once per battle round, you can target the bearer&apos;s unit with the Command Re-roll Stratagem for 0CP, and can do so even if another unit from your army has already been targeted by that Stratagem this phase. In addition. once per battle, just after your opponent uses a Stratagem, if the bearer is on the battlefield, it can
+use this Enhancement. If it does, until the end of the battle, the CP cost your opponent must pay to use that Stratagem again is increased by 1CP.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="30"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="roster" childId="8d40-fab5-7d17-33cb" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="BLESSING OF THE DARK MASTER" hidden="false" id="ed9b-e313-43de-3bd1" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="dbe6-ea4b-d14a-753e" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="BLESSING OF THE DARK MASTER" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f768-06be-4611-3ee5">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">CHAOS KNIGHTS model only. The bearer has the Stealth ability. In addition, once per battle, after you make a saving throw for the bearer, you can change the Damage characteristic of that attack to 0.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="roster" childId="8d40-fab5-7d17-33cb" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="PREYSLAYER&apos;S MANTLE" hidden="false" id="ad87-f8a3-3f6b-f0d8" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="a156-3943-defa-4cd8" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="PREYSLAYER&apos;S MANTLE" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2832-88fb-be47-238f">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">War Dog model only. The bearer has the Super-heavy select one unit from your opponent&apos;s Walker ability.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="roster" childId="6ba6-1e1b-1b23-6fe4" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="FINAL HOWL (AURA)" hidden="false" id="4318-6145-fe80-2904" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="bf83-cd64-1f6e-7d71" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="FINAL HOWL (AURA)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ade5-b7d3-1fa1-67b8">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">War Dog model only. While a friendly War Dog model is within 6&quot; of the bearer, each time that model makes an attack, re-roll a Wound roll of 1.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="roster" childId="6ba6-1e1b-1b23-6fe4" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="LOPING PREDATOR" hidden="false" id="80e9-e747-7cb7-5b19" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="48ad-253a-4cfb-20f6" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="LOPING PREDATOR" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ea7a-23b9-c7ef-b42e">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">WarDog model only. The bearer&apos;s ranged weapons have the (ASSAULT) ability.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="10"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="roster" childId="6ba6-1e1b-1b23-6fe4" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="PANOPLY OF THE CURSED KNIGHTS" hidden="false" id="a38f-9179-6a86-d146" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="aecc-1cc1-adc9-d385" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="PANOPLY OF THE CURSED KNIGHTS" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="32a4-13b4-6845-7740">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">War Dog model only. Each time an attack targets the bearer, worsen the Armour Penetration characteristic of that attack by 1.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="roster" childId="6ba6-1e1b-1b23-6fe4" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="d71a-a59f-aafd-3723" name="Harbingers of Dread" hidden="false">
-      <description>If your Army Faction is CHAOS KNIGHTS, each model from your army with this ability has the following Dread abilities:
+      <description>If your Army Faction is CHAOS KNIGHTS, each unit from your army with this ability gains Dread abilities, depending which are active for your army (see below). The Deathly Terror ability is active for your army from the start of the battle. In addition, at the start of the first, third and fifth battle rounds, you can either select one of the other Dread abilities or randomly select two Dread abilities to apply by
+rolling two D6 and applying the results rolled, from those numbered 1-6 on the right.
 
+Any Dread abilities that have been selected are active until the end of the battle, You cannot select the same Dread ability more than once, and any duplicated Dread abilities (as a result of randomly selecting them) have no additional effect.
 
-DESPAIR (AURA)
-While an enemy unit is within 12&quot; of this model, each time that enemy unit takes a Battle-shock or Leadership test, subtract 1 from that test.
+DREAD ABILITIES (D6)
 
-DOOM AND DARKNESS
-- Each time this model makes an attack, if the target is Battle-shocked, add 1 to the Wound roll.
-- Each time an attack targets this model, if the attacking model’s unit is Battle-shocked, subtract 1 from the Hit roll.</description>
+DEATHLY TERROR (AURA) (D6 - N/A)
+While an enemy unit is within 9&quot; of this model, worsen the Leadership characteristic of models in that unit by 1.
+
+DESPAIR (AURA) (D6 - 1)
+While an enemy unit is within 9&quot; of this model, worsen the Leadership characteristic of models in that unit by 1. This is cumulative with the Deathly Terror ability (see above).
+
+DOOM (D6 - 2)
+Each time this model makes an attack, if the target of that attack is Battle-shocked, add 1 to the Wound roll.
+
+DARKNESS (D6 - 3)
+Each time an attack is made against this model, if the attacking unit is Battle-shocked or more than 18&quot; away. subtract 1 from the Hit roll.
+
+DISMAY (AURA) (D6 - 4)
+In the Battle-shock step of your opponent&apos;s Command phase, for each enemy unit that is below its Starting Strength and within 9&quot;
+of this model, that enemy unit must take a Battle-shack test
+
+DELIRIUM (AURA) (D6 - 5)
+While an enemy unit that is Below Half-strength is within 9&quot; of this medel, each time that unit falls a Battle: shoek test, it suffers D3 mortal wounds
+
+DOMINION (D6 - 6)
+Add 3&quot;to the range of this model&apos;s Aura abilities.</description>
     </rule>
     <rule name="Dreaded Masters" id="36df-7a0b-e5b7-5f29" hidden="false">
       <description>TITANIC CHAOS KNIGHTS units from your army have the following abilities: 
@@ -3966,35 +4701,48 @@ Dark Sacrifice: Each time a CHAOS KNIGHTS unit with this ability is selected to 
         </modifier>
       </modifiers>
     </rule>
+    <rule name="Malefic Surge" id="0d8b-9f8a-c498-5892" hidden="false">
+      <description>In your Command phase, one or more CHAOS KNIGHTS units from your army can make a Malefic Surge. Each one that does must first take a Leadership test; if that test is failed, that unit suffers D3 mortal wounds. Then, until the start of your next Command phase,
+that unit is Empowered. While a unit is Empowered it can use one of the Malefic Surge abilities below. Once that unit has used a Malefic Surge ability, it is no longer Empowered.
+
+Unholy Hunger: When a model in this unit makes a Normal, Advance or Fall Back move, until the end of the phase, add 3&quot; to its Move characteristic.
+
+Diabolic Power: When this unit is selected to shoot or fight, select either the [LETHAL HITS] OT [SUSTAINED HITS 1] ability. Until the end of the phase, weapons equipped by models in this unit have the selected ability.
+
+Unnatural Fortitude: When this unit is selected as the target of an attack, until the end of the phase, models in this unit have a 5+ invulnerable save and the Feel No Pain 6+ ability.</description>
+    </rule>
+    <rule name="Marked Prey" id="3ac9-c005-92ab-e8d6" hidden="false">
+      <description>At the start of your Command phase, select one unit from your opponent&apos;s army. Until the start of your next Command phase, each time a WAR DOG model from your army makes an attack that targets that enemy unit, if that unit is visible to the attacking model, that attack has the (SUSTAINED HITS 1] ability.
+
+KEYWORDS
+
+While using the Houndpack Lance Detachment, the following rules apply:
+
+Your army must include three or more WAR DOG units,
+
+WAR DOG units from your army have the BATTLELINE keyword.
+
+When mustering your army, select three WAR DOG units from your army. Until the end of the battle, those units
+have the CHARACTER keyword.</description>
+    </rule>
+    <rule name="Paragons of Terror" id="e321-94fe-af20-65de" hidden="false">
+      <description>At the start of the first battle round, after selecting one or more Dread abilities to be active for your army, you can select one additional Dread ability to be active for your army (this additional Dread ability cannot be randomly selected).</description>
+    </rule>
+    <rule name="Tyrannical Court" id="e0af-2af0-61ae-56e4" hidden="false">
+      <description>Imprave the Objective Control characteristic of CHAOS KNIGHTS CHARACTER models from your army by 2. In
+addition, once per battle round, if your WARLORD is on the battlefield, you can use the Claimed for the Dark
+Gods Stratagem for 0CP.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="97fd-09c5-60a8-63c4" name="Damaged: 1-4 wounds remaining" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+    <profile id="97fd-09c5-60a8-63c4" name="Damaged: 1-5 wounds remaining" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
       </characteristics>
     </profile>
-    <profile id="12ce-2a62-9fea-74bd" name="Damaged: 1-7 wounds remaining" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+    <profile id="12ce-2a62-9fea-74bd" name="Damaged: 1-9 wounds remaining" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-7 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="9717-2058-eae3-602e" name="Forged in Terror (Aura)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition type="equalTo" value="0" field="selections" scope="force" childId="603e-6bcd-927f-cb70" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="603e-6bcd-927f-cb70" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In the Battle-shock step of your opponent’s Command phase, if an enemy unit that is below its Starting Strength is within 12&quot; of a CHAOS KNIGHTS model from your army, that enemy unit must take a Battleshock test. For the purposes of this ability, if a unit has a Starting Strength of 1, it is considered to be below its Starting Strength while it has lost one or more wounds.
-
-**Designer’s Note:** *This means that all enemy units within range of this Aura ability that have lost one or more models must take a Battle-shock test in your opponent’s Command phase, not just those that are Below Half-strength.*</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-9 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
       </characteristics>
     </profile>
     <profile id="7400-7387-dae-781f" name="Damaged: 1-10 wounds remaining" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -4009,7 +4757,91 @@ Dark Sacrifice: Each time a CHAOS KNIGHTS unit with this ability is selected to 
     </profile>
     <profile id="73ac-6b3a-8480-d08a" name="Huntmaster (Aura)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly WAR DOG model is within 6&quot; of this model, each time that WAR DOG model makes a ranged attack, you can ignore any or all modifiers to that attack’s Ballistic Skill characteristic and/or to the Hit roll.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly War Dog model is within 6&quot; of this model, ranged weapons equipped by that War Dog model have the [ASSAULT] ability.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3bb1-3d5b-535f-3f80" name="Paragons of Terror" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="c43a-0fb3-6379-f037" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="c43a-0fb3-6379-f037" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <characteristics>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the first battle round, after selecting one or more Dread abilities to be active for your army, you can select one additional Dread ability to be active for your army (this additional Dread ability cannot be randomly selected).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bfbf-cef8-82b0-f779" name="Tyrannical Court" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="8d40-fab5-7d17-33cb" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="8d40-fab5-7d17-33cb" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <characteristics>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Imprave the Objective Control characteristic of CHAOS KNIGHTS CHARACTER models from your army by 2. In
+addition, once per battle round, if your WARLORD is on the battlefield, you can use the Claimed for the Dark
+Gods Stratagem for 0CP.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bf2a-e2fc-bc7c-ba5d" name="Marked Prey" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="6ba6-1e1b-1b23-6fe4" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="6ba6-1e1b-1b23-6fe4" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <characteristics>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of your Command phase, select one unit from your opponent&apos;s army. Until the start of your next Command phase, each time a WAR DOG model from your army makes an attack that targets that enemy unit, if that unit is visible to the attacking model, that attack has the (SUSTAINED HITS 1] ability.
+
+
+KEYWORDS
+
+
+While using the Houndpack Lance Detachment, the following rules apply:
+
+
+Your army must include three or more WAR DOG units,
+
+
+WAR DOG units from your army have the BATTLELINE keyword.
+
+
+When mustering your army, select three WAR DOG units from your army. Until the end of the battle, those units
+have the CHARACTER keyword.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="56b5-233a-3c6b-053a" name="Malefic Surge" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Command phase, one or more CHAOS KNIGHTS units from your army can make a Malefic Surge. Each one that does must first take a Leadership test; if that test is failed, that unit suffers D3 mortal wounds. Then, until the start of your next Command phase,
+that unit is Empowered. While a unit is Empowered it can use one of the Malefic Surge abilities below. Once that unit has used a Malefic Surge ability, it is no longer Empowered.
+
+
+Unholy Hunger: When a model in this unit makes a Normal, Advance or Fall Back move, until the end of the phase, add 3&quot; to its Move characteristic.
+
+
+Diabolic Power: When this unit is selected to shoot or fight, select either the [LETHAL HITS] OT [SUSTAINED HITS 1] ability. Until the end of the phase, weapons equipped by models in this unit have the selected ability.
+
+
+Unnatural Fortitude: When this unit is selected as the target of an attack, until the end of the phase, models in this unit have a 5+ invulnerable save and the Feel No Pain 6+ ability.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -4033,5 +4865,6 @@ Dark Sacrifice: Each time a CHAOS KNIGHTS unit with this ability is selected to 
     <entryLink import="true" name="War Dog Karnivore" hidden="false" type="selectionEntry" id="6884-a812-e5ca-5a8d" targetId="e96b-ac98-7fd2-a155"/>
     <entryLink import="true" name="War Dog Moirax" hidden="false" type="selectionEntry" id="ac91-fe54-bd09-4145" targetId="ae7c-3679-a88-6895"/>
     <entryLink import="true" name="War Dog Stalker" hidden="false" type="selectionEntry" id="6974-5c30-1291-f54d" targetId="bbc6-c0ed-24e8-86b7"/>
+    <entryLink import="true" name="Knight Ruinator" hidden="false" type="selectionEntry" id="29f2-1455-b831-bc21" targetId="16b1-85ec-89ed-1f7b"/>
   </entryLinks>
 </catalogue>
