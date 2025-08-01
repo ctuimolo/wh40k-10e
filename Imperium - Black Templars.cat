@@ -35,7 +35,13 @@
   </sharedRules>
   <sharedSelectionEntries>
     <selectionEntry id="5558-f47e-9f45-3fcb" name="Templar Vows Reference" hidden="false" collective="false" import="true" type="upgrade">
-      <description>At the start of the first battle round, select one of the four Templar Vows to be active for ADEPTUS ASTARTES units from your army until the end of the battle.</description>
+      <profiles>
+        <profile id="4ba4-2d3a-a3b2-2a0c" name="UNBRIDLED BLOODLUST" hidden="false" typeId="d07f-b12b-1c73-fa2c" typeName="Templar Vow">
+          <characteristics>
+            <characteristic name="Effect" typeId="fcc3-ca7a-d697-7098">You can re-roll Charge rolls made for this unit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Chaplain Grimaldus" hidden="false" id="8165-e372-4fd6-3274">
       <categoryLinks>
