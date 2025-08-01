@@ -43589,6 +43589,16 @@ Until the end of the phase, this model&apos;s melee weapons have that ability.</
     </profileType>
   </profileTypes>
   <sharedRules>
+    <rule id="e68b-b42f-6f7c-4671" name="Templar Vows" hidden="True">
+      <description>At the start of the first battle round, select one of the four Templar Vows to be active for ADEPTUS ASTARTES units from your army until the end of the battle.</description>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </rule>
     <rule name="Oath of Moment" id="3b76-4053-ece9-6e7d" hidden="false">
       <description>If your Army Faction is Adeptus Astartes, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Oath of Moment target. Each time a model with this ability makes an attack that targets your Oath of Moment target:
 ■ You can reroll the Hit roll

@@ -29,9 +29,6 @@
     <entryLink import="true" name="Sternguard Veteran Squad" hidden="false" id="e699-8c00-6cf6-301e" targetId="9c1c-66bd-83c9-d8b0" type="selectionEntry"/>
   </entryLinks>
   <sharedRules>
-    <rule id="e68b-b42f-6f7c-4671" name="Templar Vows" hidden="false">
-      <description>At the start of the first battle round, select one of the four Templar Vows to be active for ADEPTUS ASTARTES units from your army until the end of the battle.</description>
-    </rule>
   </sharedRules>
   <sharedSelectionEntries>
     <modifiers>
